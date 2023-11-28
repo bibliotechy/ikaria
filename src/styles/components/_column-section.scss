@@ -1,0 +1,9 @@
+.ColumnSection {
+  display: flex;
+  gap: var(--gap-size);
+  padding: var(--module-y-spacing) 0;
+
+  > * {
+    flex-grow: 1;
+  }
+}

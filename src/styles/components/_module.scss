@@ -1,0 +1,46 @@
+.Module {
+  margin-bottom: var(--module-y-spacing);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &--invert {
+    background-color: #343230;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &-inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: var(--outer-max-width);
+    padding: 0 var(--outer-x-padding);
+  }
+
+  &-title {
+    position: absolute;
+    top: -2.2rem;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 0.1em 0.3em;
+    font-family: var(--font-family-display);
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+    text-transform: lowercase;
+    line-height: 1.7em;
+    -webkit-font-smoothing: antialiased;
+
+    .Module--reverse & {
+      left: auto;
+      right: 0;
+    }
+    .Module--invert & {
+      color: #000;
+      background-color: #fff;
+      -webkit-font-smoothing: normal;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ikaria",
+  "private": true,
+  "version": "0.0.1",
+  "main": "eleventy.config.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.8",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^1.0.4",
+    "browserslist": "^4.22.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "js-yaml": "^4.1.0",
+    "lightningcss": "^1.22.0",
+    "luxon": "^3.4.4",
+    "markdown-it-implicit-figures": "^0.12.0",
+    "sass": "^1.69.5"
+  }
+}

@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="LandingHeader">
+  <img
+    src="/icarus-archive-bg-overflow@2x.png"
+    class="LandingHeader-bg"
+    alt="A collage of Icarus Project imagery"
+  />
+</div>
+
+{%- set aboutPage = collections.homepage | find('about') -%}
+<section class="Module">
+  <div class="Module-inner">
+    <h2 class="Module-title">/about</h2>
+
+    <article class="Module-content">
+      <div class="InfoSection">
+        <img
+          src="/icarus-over-manhattan.jpg"
+          width="200"
+          alt="Painting of Icarus over Manhattan by Eric Drooker"
+          class="InfoSection-img"
+        />
+
+        <div class="InfoSection-cardContainer">
+          <div class="InfoSection-card">
+            <div class="InfoSection-copy">
+              {{ aboutPage.data.page.excerpt | toHTML | safe }}
+            </div>
+            <div class="InfoSection-moreLink">
+              <a href="/about/">Read more &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="Module Module--invert">
+  <div class="Module-inner">
+    <h2 class="Module-title">/publications</h2>
+
+    <article class="Module-content">
+      <div class="ColumnSection">
+        <img
+          src="/navigatingthespacecover.png"
+          width="200"
+          alt="Cover of Navigating the Space Between Brilliance and Madness"
+        />
+        <img
+          src="/fmtbmcover.png"
+          width="200"
+          alt="Cover of Friends Make the Best Medicine"
+        />
+        <img
+          src="/harmreductionguidecover.png"
+          width="200"
+          alt="Cover of Harm Reduction Guide to Coming Off Psychiatric Drugs"
+        />
+      </div>
+    </article>
+  </div>
+</section>
+
+<script src="/scripts/home.js"></script>

@@ -1,0 +1,48 @@
+.NavGraph {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.9;
+  color: #fff;
+  visibility: hidden;
+
+  @include bp(L) {
+    visibility: visible;
+  }
+
+  &-edges {
+    stroke: currentColor;
+    color: var(--accent-color);
+  }
+
+  &-edge {
+    stroke-width: 5;
+  }
+
+  &-link {
+    color: currentColor !important;
+  }
+
+  &-node {
+    stroke: none;
+    stroke: var(--accent-color);
+    stroke-width: 5;
+    fill: currentColor;
+  }
+
+  &-label {
+    font-family: var(--font-family-display);
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    text-transform: lowercase;
+  }
+
+  &-labelInner {
+    margin: auto;
+  }
+}

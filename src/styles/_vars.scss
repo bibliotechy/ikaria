@@ -1,0 +1,48 @@
+:root {
+  // Typography
+  --font-family: -apple-system, system-ui, sans-serif;
+  --font-family-display: Hack, Consolas, Menlo, Monaco, Andale Mono WT,
+    Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
+    Courier, monospace;
+
+  --base-font-size: 16px;
+  @include bp(M) {
+    --base-font-size: 18px;
+  }
+  @include bp(L) {
+    --base-font-size: 19px;
+  }
+  @include bp(XL) {
+    --base-font-size: 20px;
+  }
+
+  // Colors
+  // --background-color: #f6f6ee;
+  --background-color: #fff8f0;
+  --accent-color: #f00;
+
+  --text-color: #404040;
+  --text-color-secondary: #888;
+  --text-color-link: #082840;
+  --text-color-link-active: #5f2b48;
+  --text-color-link-visited: #17050f;
+
+  // Layout
+  @each $bp, $size in $breakpoints {
+    --bp-#{to-lower-case($bp)}: #{$size};
+  }
+  --outer-max-width: #{map-get($breakpoints, XL)};
+  --outer-x-padding: 1rem;
+  --inner-x-padding: 1rem;
+  --inner-max-width: calc(
+    var(--outer-max-width) - (var(--outer-x-padding) * 2)
+  );
+  --module-y-spacing: 4rem;
+  --gap-size: 2rem;
+
+  @include bp(S) {
+    --outer-x-padding: 2rem;
+    --inner-x-padding: 3rem;
+  }
+}

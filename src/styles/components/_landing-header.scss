@@ -1,0 +1,11 @@
+.LandingHeader {
+  margin: 0 auto 8rem;
+  background: var(--background-color);
+  position: relative;
+  padding: 0;
+
+  &-bg {
+    display: block;
+    width: 100%;
+  }
+}

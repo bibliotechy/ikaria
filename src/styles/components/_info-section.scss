@@ -1,0 +1,53 @@
+.InfoSection {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flow-root;
+
+  @include bp(L) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: var(--gap-size);
+  }
+
+  > * {
+    grid-row-start: 1;
+  }
+
+  &-cardContainer {
+    grid-column: 1 / 9;
+  }
+
+  &-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 3rem;
+
+    @include bp(L) {
+      padding-top: 4rem;
+      padding-right: 120px;
+    }
+  }
+
+  &-copy {
+    margin-bottom: 1.5em;
+  }
+
+  &-img {
+    display: none;
+
+    @include bp(S) {
+      display: block;
+      float: right;
+      width: 33.3333%;
+      margin: 3rem 3rem 1rem 1rem;
+      min-width: 200px;
+    }
+
+    @include bp(L) {
+      float: none;
+      width: 100%;
+      grid-column: 8 / 13;
+      margin: 3rem 0 0;
+      z-index: 1;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title or metadata.title }}</title>
+    <meta
+      name="description"
+      content="{{ description or metadata.description }}"
+    />
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css"
+    />
+    <link rel="stylesheet" href="{{ '/styles/main.css' | url }}" />
+  </head>
+
+  <body
+    class="page--{% if page.fileSlug %}{{
+      page.fileSlug
+    }}{% else %}home{% endif %}"
+  >
+    <a href="#main" class="visually-hidden">Skip to main content</a>
+
+    {% include "global/site-header.njk" %}
+
+    <main id="main">
+      {{ content | safe }}
+    </main>
+  </body>
+
+  <script src="/scripts/vendor/d3.min.js"></script>
+  <script src="/scripts/site.js"></script>
+</html>

@@ -1,0 +1,62 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--base-font-size);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1.5em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  color: var(--text-color-link);
+
+  &:visited {
+    color: var(--text-color-link-visited);
+  }
+
+  &:hover,
+  &:active {
+    color: var(--text-color-link-active);
+  }
+}
+
+// https://www.a11yproject.com/posts/how-to-hide-content/
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

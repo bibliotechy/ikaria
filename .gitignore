@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+.vscode
+.cache
+.env
+.env.*
+!.env.example
+/public/img
+/build
+/local
