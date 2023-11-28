@@ -28,7 +28,7 @@ layout: layouts/base.njk
         tag | slugify
       }}/{% endset %}
       <li class="Article-tagItem">
-        <a href="{{ tagUrl }}" class="Article-tag">
+        <a href="{{ tagUrl | url }}" class="Article-tag">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
