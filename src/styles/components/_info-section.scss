@@ -18,8 +18,9 @@
   }
 
   &-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: #fff;
     padding: 3rem;
+    border: solid 4px #000;
 
     @include bp(L) {
       padding-top: 4rem;

@@ -82,6 +82,11 @@
 
     body.page--home & {
       color: #fff;
+
+      // The menu is expanded on desktop on the homepage anyway
+      @include bp(L) {
+        display: none;
+      }
     }
 
     span {

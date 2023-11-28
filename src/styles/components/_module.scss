@@ -33,6 +33,17 @@
     line-height: 1.7em;
     -webkit-font-smoothing: antialiased;
 
+    a {
+      text-decoration: none;
+      display: inline-block;
+
+      &,
+      &:hover,
+      &:visited {
+        color: currentColor;
+      }
+    }
+
     .Module--reverse & {
       left: auto;
       right: 0;

@@ -13,7 +13,7 @@ layout: layouts/base.njk
 {%- set aboutPage = collections.homepage | find('about') -%}
 <section class="Module">
   <div class="Module-inner">
-    <h2 class="Module-title">/about</h2>
+    <h2 class="Module-title"><a href="{{ '/about' | url }}">/about</a></h2>
 
     <article class="Module-content">
       <div class="InfoSection">
@@ -30,7 +30,7 @@ layout: layouts/base.njk
               {{ aboutPage.data.page.excerpt | toHTML | safe }}
             </div>
             <div class="InfoSection-moreLink">
-              <a href="{{ '/about' | url }}">Read more &gt;</a>
+              <a href="{{ '/about' | url }}">More »</a>
             </div>
           </div>
         </div>
@@ -41,7 +41,9 @@ layout: layouts/base.njk
 
 <section class="Module Module--invert">
   <div class="Module-inner">
-    <h2 class="Module-title">/publications</h2>
+    <h2 class="Module-title">
+      <a href="{{ '/publications' | url }}">/publications</a>
+    </h2>
 
     <article class="Module-content">
       <div class="ColumnSection">
