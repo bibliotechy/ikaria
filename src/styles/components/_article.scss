@@ -2,6 +2,24 @@
   --article-outer-max-width: 900px;
   --article-inner-max-width: 728px;
 
+  position: relative;
+  margin-top: 5rem;
+
+  &::before {
+    content: '';
+    display: block;
+    max-width: var(--article-outer-max-width);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px 0px;
+  }
+
   &-bg {
     position: absolute;
     display: block;
@@ -13,16 +31,11 @@
 
   &-header {
     position: relative;
-    margin: 5rem auto 0;
+    margin: 0 auto;
     max-width: var(--outer-max-width);
-    padding: 0 var(--outer-x-padding) 1.5em;
-    // border-bottom: solid 1px currentColor;
-    padding: 0 var(--outer-x-padding);
     text-align: center;
     max-width: var(--article-inner-max-width);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
+    padding: 5rem var(--outer-x-padding) 3rem;
   }
 
   &-title {
@@ -100,20 +113,6 @@
     // margin-top: 5rem;
     padding-bottom: 5rem;
 
-    &::before {
-      content: '';
-      display: block;
-      max-width: var(--article-outer-max-width);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      background: #fff;
-      z-index: 0;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
     > * {
       // max-width: var(--outer-max-width);
       padding: 0 var(--outer-x-padding);
@@ -135,8 +134,26 @@
     figure {
       padding: 0;
       margin-top: 0;
+
       img {
+        display: block;
         width: 100%;
+        max-width: var(--article-outer-max-width);
+        margin: 0 auto;
+      }
+    }
+
+    p > img {
+      &.left {
+        float: left;
+        padding: 0 1rem 1rem 0;
+        max-width: 50%;
+      }
+
+      &.right {
+        float: right;
+        padding: 0 0 1rem 1rem;
+        max-width: 50%;
       }
     }
 

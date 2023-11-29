@@ -4,11 +4,10 @@ subhed: First Printed in the SF Bay Guardian September 2002
 author: Sascha Altman DuBrul
 published: September 2002
 tags:
-  - clipping
-  - historical
+  - first-person accounts
 ---
 
-![The Forest and Subway](/bipolar-world-i.jpg)
+![The Forest and Subway](/bipolar-world-i.jpg){.full}
 
 ### I.
 

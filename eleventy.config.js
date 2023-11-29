@@ -13,6 +13,7 @@ const pluginBundle = require('@11ty/eleventy-plugin-bundle')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
 const implicitFigures = require('markdown-it-implicit-figures')
+const markdownAttrs = require('markdown-it-attrs')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget('./{src,public}/**/*.{svg,webp,png,jpg,jpeg}')
@@ -26,9 +27,13 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
   eleventyConfig.addPlugin(pluginBundle)
 
-  eleventyConfig.amendLibrary('md', (mdLib) =>
-    mdLib.use(implicitFigures, { figcaption: 'title' }),
-  )
+  eleventyConfig.amendLibrary('md', (mdLib) => {
+    // Sequence matters here
+    mdLib.use(markdownAttrs, {
+      allowedAttributes: ['id', 'class', 'width', 'height'],
+    })
+    mdLib.use(implicitFigures, { figcaption: 'title' })
+  })
 
   // Adapted from https://11ty.rocks/posts/process-css-with-lightningcss/
   eleventyConfig.addTemplateFormats('scss')
