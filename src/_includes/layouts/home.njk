@@ -30,7 +30,50 @@ layout: layouts/base.njk
               {{ aboutPage.data.page.excerpt | toHTML | safe }}
             </div>
             <div class="InfoSection-moreLink">
-              <a href="{{ '/about' | url }}">More »</a>
+              <a href="{{ '/about' | url }}">
+                Read more about The Icarus Project »
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="Module Module--reverse">
+  <div class="Module-inner">
+    <h2 class="Module-title">
+      <a href="{{ '/publications' | url }}">/publications</a>
+    </h2>
+
+    <article class="Module-content">
+      <div class="InfoSection InfoSection--reverse">
+        <img
+          src="/navigatingthespacecover.png"
+          width="200"
+          alt="Cover of Navigating the Space Between Brilliance and Madness"
+          class="InfoSection-img"
+        />
+
+        <div class="InfoSection-cardContainer">
+          <div class="InfoSection-card">
+            <div class="InfoSection-copy">
+              <p>
+                We assembled the beautiful and jagged pieces of our collective
+                experience, the lessons and the scars, to create an atlas of
+                alternative maps to the particular breed of madness that gets
+                called bipolar, and the ways people are making it through.
+                Traveling through subconscious and waking worlds, from hospital
+                waiting rooms to collective house kitchens, from the desert to
+                the supermarket, these pages chart some of the underground
+                tunnels beneath the mainstream medical model of treatment and
+                the pathologizing language that alienates so many of us.
+              </p>
+              <a href="#">Download PDF</a>
+            </div>
+            <div class="InfoSection-moreLink">
+              <a href="{{ '/publications' | url }}"> See all publications » </a>
             </div>
           </div>
         </div>
@@ -42,28 +85,123 @@ layout: layouts/base.njk
 <section class="Module Module--invert">
   <div class="Module-inner">
     <h2 class="Module-title">
-      <a href="{{ '/publications' | url }}">/publications</a>
+      <a href="{{ '/articles' | url }}">/articles</a>
     </h2>
 
-    <article class="Module-content">
-      <div class="ColumnSection">
-        <img
-          src="/navigatingthespacecover.png"
-          width="200"
-          alt="Cover of Navigating the Space Between Brilliance and Madness"
-        />
-        <img
-          src="/fmtbmcover.png"
-          width="200"
-          alt="Cover of Friends Make the Best Medicine"
-        />
-        <img
-          src="/harmreductionguidecover.png"
-          width="200"
-          alt="Cover of Harm Reduction Guide to Coming Off Psychiatric Drugs"
-        />
+    <div class="Module-content">
+      <div class="ArticleGrid">
+        <div class="ArticleThumb">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/bipolar-world-i.jpg"
+              alt="Woods and subway"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Sascha Altman DuBrul</div>
+              <div class="ArticleThumb-published">September 2002</div>
+            </div>
+            <h3 class="ArticleThumb-title">The Bipolar World</h3>
+          </div>
+        </div>
+
+        <div class="ArticleThumb">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/world_between.jpg"
+              alt="World between"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Elizabeth Marie Brewer</div>
+              <div class="ArticleThumb-published">2014</div>
+            </div>
+            <h3 class="ArticleThumb-title">
+              Psychiatric Disability and Rhetoricity
+            </h3>
+          </div>
+        </div>
+
+        <div class="ArticleThumb ArticleThumb--2x1">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/not-alone-split.png"
+              alt="You Are Not Alone"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Alyson Young</div>
+              <div class="ArticleThumb-published">August 2018</div>
+            </div>
+            <h3 class="ArticleThumb-title">
+              Madness and lived experience: An analysis of The Icarus Project
+            </h3>
+          </div>
+        </div>
+
+        <div class="ArticleThumb ArticleThumb--2x2">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/drooker-subway.png"
+              alt="Subway Skeletons Eric Drooker"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Sascha Altman DuBrul</div>
+              <div class="ArticleThumb-published">July 2014</div>
+            </div>
+            <h3 class="ArticleThumb-title">
+              The Icarus Project: A Counter Narrative for Psychic Diversity
+            </h3>
+          </div>
+        </div>
+
+        <div class="ArticleThumb ArticleThumb--2x1">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/cloud-atlas.png"
+              alt="Cloud-atlas thing"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Maryse Mitchell-Brody</div>
+              <div class="ArticleThumb-published">2007</div>
+            </div>
+            <h3 class="ArticleThumb-title">
+              The Icarus Project: Dangerous Gifts, Iridescent Visions and Mad
+              Community
+            </h3>
+          </div>
+        </div>
+
+        <div class="ArticleThumb">
+          <div class="ArticleThumb-imgWrap">
+            <img
+              src="/lithium.png"
+              alt="Bottle of Lithium"
+              class="ArticleThumb-img"
+            />
+          </div>
+          <div class="ArticleThumb-details">
+            <div class="ArticleThumb-byline">
+              <div class="ArticleThumb-author">Icarus Members</div>
+              <div class="ArticleThumb-published">2010</div>
+            </div>
+            <h3 class="ArticleThumb-title">The Lithium Debates</h3>
+          </div>
+        </div>
       </div>
-    </article>
+    </div>
   </div>
 </section>
 

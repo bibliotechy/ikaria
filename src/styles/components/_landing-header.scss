@@ -1,8 +1,13 @@
 .LandingHeader {
-  margin: 0 auto 4rem;
+  display: none;
+  margin: 0 auto var(--module-y-spacing);
   background: var(--background-color);
   position: relative;
   padding: 0;
+
+  @include bp(S) {
+    display: block;
+  }
 
   &-bg {
     display: block;

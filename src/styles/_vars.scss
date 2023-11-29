@@ -38,10 +38,11 @@
   --inner-max-width: calc(
     var(--outer-max-width) - (var(--outer-x-padding) * 2)
   );
-  --module-y-spacing: 4rem;
+  --module-y-spacing: 0;
   --gap-size: 2rem;
 
   @include bp(S) {
+    --module-y-spacing: 6rem;
     --outer-x-padding: 2rem;
     --inner-x-padding: 3rem;
   }

@@ -74,6 +74,7 @@
     color: #000;
     appearance: none;
     cursor: pointer;
+    top: 7px;
 
     @include bp(S) {
       width: 30px;
@@ -133,11 +134,6 @@
       width: 0;
       left: 50%;
     }
-  }
-
-  &-title,
-  &-menuButton {
-    top: 30px;
   }
 
   &-menu {

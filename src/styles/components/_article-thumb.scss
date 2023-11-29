@@ -1,0 +1,84 @@
+.ArticleThumb {
+  position: relative;
+  font-size: 1rem;
+
+  // There's more space for the font at mobile when there are fewer cols, and at
+  // desktop when there's more space, it's this middle part that's a problem.
+  @include bp(M) {
+    font-size: 0.8rem;
+  }
+
+  @include bp(L) {
+    font-size: 1rem;
+  }
+
+  &-imgWrap {
+    position: relative;
+  }
+
+  &-imgWrap::after {
+    content: '';
+    display: block;
+    position: relative;
+    padding-bottom: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 25%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+
+    .ArticleThumb--2x1 & {
+      padding-bottom: calc(50% - (var(--gap-size) / 2));
+    }
+  }
+
+  &-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &-title {
+    margin: 0;
+    padding: 0.75em;
+    font-size: 1.2em;
+    line-height: 1.1;
+    font-weight: 800;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .ArticleThumb--2x2 & {
+      font-size: 2.5em;
+    }
+  }
+
+  &-byline {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 0.7rem;
+    margin: 0.75rem 0 0.3em -1rem;
+  }
+
+  &-author {
+    background-color: #000;
+    display: inline-block;
+    padding: 0.3em 0.5em;
+    white-space: nowrap;
+  }
+
+  &-published {
+    display: none;
+  }
+}

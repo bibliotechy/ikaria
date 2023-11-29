@@ -2,9 +2,11 @@
 @import 'vars';
 @import 'base';
 
+@import 'components/article-grid';
 @import 'components/site-header';
 @import 'components/landing-header';
 @import 'components/article';
+@import 'components/article-thumb';
 @import 'components/nav-graph';
 @import 'components/module';
 @import 'components/info-section';
