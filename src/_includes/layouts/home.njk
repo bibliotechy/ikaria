@@ -13,7 +13,7 @@ layout: layouts/base.njk
 {%- set aboutPage = collections.homepage | find('about') -%}
 <section class="Module">
   <div class="Module-inner">
-    <h2 class="Module-title"><a href="{{ '/about' | url }}">/about</a></h2>
+    <h2 class="Module-title"><a href="/about">/about</a></h2>
 
     <article class="Module-content">
       <div class="InfoSection">
@@ -30,9 +30,7 @@ layout: layouts/base.njk
               {{ aboutPage.data.page.excerpt | toHTML | safe }}
             </div>
             <div class="InfoSection-moreLink">
-              <a href="{{ '/about' | url }}">
-                Read more about The Icarus Project »
-              </a>
+              <a href="/about"> Read more about The Icarus Project » </a>
             </div>
           </div>
         </div>
@@ -44,7 +42,7 @@ layout: layouts/base.njk
 <section class="Module Module--reverse">
   <div class="Module-inner">
     <h2 class="Module-title">
-      <a href="{{ '/publications' | url }}">/publications</a>
+      <a href="/publications">/publications</a>
     </h2>
 
     <article class="Module-content">
@@ -73,7 +71,7 @@ layout: layouts/base.njk
               <a href="#">Download PDF</a>
             </div>
             <div class="InfoSection-moreLink">
-              <a href="{{ '/publications' | url }}"> See all publications » </a>
+              <a href="/publications"> See all publications » </a>
             </div>
           </div>
         </div>
@@ -85,7 +83,7 @@ layout: layouts/base.njk
 <section class="Module Module--invert">
   <div class="Module-inner">
     <h2 class="Module-title">
-      <a href="{{ '/articles' | url }}">/articles</a>
+      <a href="/articles">/articles</a>
     </h2>
 
     <div class="Module-content">{% include "article-grid.njk" %}</div>

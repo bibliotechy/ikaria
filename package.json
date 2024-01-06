@@ -9,7 +9,7 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "build": "eleventy",
-    "build-ghpages": "env NODE_ENV=production eleventy",
+    "build-ghpages": "env NODE_ENV=production eleventy --pathprefix=/ikaria/",
     "debug": "DEBUG=Eleventy* eleventy",
     "debugstart": "DEBUG=Eleventy* npx eleventy --serve --quiet",
     "lint": "eslint ."
