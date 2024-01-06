@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm build-ghpages
+      - run: npm run build-ghpages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
