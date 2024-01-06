@@ -1,6 +1,8 @@
 .ArticleThumb {
   position: relative;
   font-size: 1rem;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
 
   // There's more space for the font at mobile when there are fewer cols, and at
   // desktop when there's more space, it's this middle part that's a problem.

@@ -3,8 +3,12 @@ layout: layouts/base.njk
 ---
 
 <article class="Article">
+  {% if hero %}
+  <img src="{{ hero }}" alt="{{ title }}" class="Article-hero" />
+  {% else %}
   <header class="Article-header">
     <h1 class="Article-title">{{ title }}</h1>
+
     {% if subhed %}
     <h2 class="Article-subhed">{{ subhed }}</h2>
     {% endif %}
@@ -44,6 +48,7 @@ layout: layouts/base.njk
       {%- endfor %}
     </ul>
   </header>
+  {% endif %}
 
   <div class="Article-content">
     {{ content | safe }}

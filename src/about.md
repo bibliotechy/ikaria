@@ -1,6 +1,7 @@
 ---
 title: About
 layout: layouts/article.njk
+hero: /about-header.png
 tags: ['homepage']
 ---
 
