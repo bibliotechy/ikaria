@@ -30,7 +30,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.amendLibrary('md', (mdLib) => {
     // Sequence matters here
     mdLib.use(markdownAttrs, {
-      allowedAttributes: ['id', 'class', 'width', 'height'],
+      allowedAttributes: ['id', 'class', 'width', 'height', 'style'],
     })
     mdLib.use(implicitFigures, { figcaption: 'title' })
   })
