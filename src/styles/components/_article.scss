@@ -130,6 +130,12 @@
       max-width: var(--outer-max-width);
     }
 
+    > hr {
+      max-width: var(--article-outer-max-width);
+      border: none;
+      border-top: solid 1px #ccc;
+    }
+
     figure {
       padding: 0;
       margin-top: 0;
@@ -153,6 +159,12 @@
         float: right;
         padding: 0 0 1rem 1rem;
         max-width: 50%;
+      }
+
+      &.center {
+        display: block;
+        max-width: 200px;
+        margin: 0 auto;
       }
     }
 

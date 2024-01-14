@@ -5,24 +5,103 @@ hero: /about-header.png
 tags: ['homepage']
 ---
 
-_The Icarus Project_ was a radical mental health support network, online
-community, and alternative media project by and for people struggling with
-extreme emotional distress that often gets labeled as mental illness. Our
-members envisioned a new culture and language that resonates with our actual
-experiences rather than trying to fit our lives into a conventional framework.
-We believed these experiences are dangerous gifts needing cultivation and care,
-rather than diseases or disorders needing to be eradicated, and that by joining
-together, the intertwined threads of madness, creativity, and collaboration
-would inspire hope and transformation in an oppressive and damaged world.
+_The Icarus Project_ envisions a new culture and language that resonates with
+our actual experiences of ’mental illness’ rather than trying to fit our lives
+into a conventional framework. We are a network of people living with and/or
+affected by experiences that are often diagnosed and labeled as psychiatric
+conditions. We believe these experiences are dangerous gifts needing cultivation
+and care, rather than diseases or disorders. By joining together as individuals
+and as a community, the intertwined threads of madness, creativity, and
+collaboration can inspire hope and transformation in an oppressive and damaged
+world. Participation in The Icarus Project helps us overcome alienation and tap
+into the true potential that lies between brilliance and madness.
 
 <!-- more -->
 
-![Icarus over Manhattan by Eric Drooker](/icarus-over-manhattan.jpg){.left}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique sapien, quis auctor ante. Pellentesque nibh neque, tincidunt vel laoreet et, porta quis odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus quam urna, vestibulum eu dolor a, finibus pulvinar ex. Aenean facilisis tellus nisi, sed ornare urna ullamcorper ut. Proin vitae sagittis erat, et tincidunt leo. Morbi eget risus commodo, consectetur sapien eu, tempor leo. Pellentesque ultricies, purus ac porttitor semper, arcu augue ornare tortor, id fringilla elit nibh eu nulla. Aenean consectetur eu elit et tempor. Ut porttitor lacinia enim non fermentum. Donec congue nibh vitae ante blandit vestibulum. Sed vitae mi id nibh elementum venenatis eget eget enim.
+![Icarus over Manhattan by Eric Drooker](/icarus-over-manhattan.jpg){.left}Together, we seek new space and freedom for extreme states of consciousness. We
+support alternatives to the medical model and acknowledge the traumatic legacy
+of psychiatric abuse. We recognize that we all live in a crazy world, and
+believe that sensitivities, visions, and inspirations are not necessarily
+symptoms of illness. Sometimes breakdown can be the entrance to breakthrough. We
+call for more options in understanding and treating emotional distress, and we
+advocate for everyone, regardless of income, to have access to these choices. We
+respect diversity and embrace harm-reduction and self-determination in treatment
+decisions. Everyone is welcome, whether they support the use of psychiatric
+drugs or not, and whether they identify with diagnostic categories or not.
 
-Vivamus sodales auctor maximus. Mauris faucibus lacus vel turpis dictum maximus. Nam scelerisque, augue quis tincidunt fringilla, elit tortor suscipit lectus, porttitor euismod est tellus non arcu. Pellentesque in ullamcorper neque. Donec ut magna ac lorem tristique ullamcorper. Ut tristique elit in turpis tempor finibus. Fusce commodo lectus id porta efficitur. Morbi non porta augue. Donec suscipit commodo neque, in volutpat lorem consequat ut. Integer fermentum sem neque, non vulputate est tincidunt in. Nunc malesuada imperdiet nunc, sed malesuada leo posuere at. Integer vitae accumsan ligula, egestas tempus ligula. Vivamus in odio dolor. Aliquam mattis nibh erat, euismod pretium arcu ultricies ac.
+To ensure we remain honest and untamed, we do not accept funding from
+pharmaceutical companies. We invite anyone who shares the Icarus vision and
+principles to join us, and choose “The Icarus Project” or any other name for the
+independent efforts that inspire them.
 
-![Icarus Girl by Fly](/icarus-girl.png){.right}Pellentesque arcu magna, lacinia non aliquam eget, fringilla vel neque. Cras in ex sem. Nam maximus purus rhoncus consectetur dapibus. Nunc gravida non nulla eget convallis. Nulla non massa ac purus mollis semper id et elit. Duis laoreet eros turpis, at interdum nulla laoreet a. Sed nec mollis eros, nec mollis purus. Phasellus nec faucibus purus. Pellentesque pharetra augue et nisi sodales, sit amet sagittis ante finibus. Nullam accumsan urna non tortor vulputate mattis.
+---
 
-Vivamus viverra felis urna, at viverra felis fermentum vel. Nulla vel posuere enim. Vivamus vitae purus ex. Nunc elementum dolor massa, quis molestie tellus interdum ac. Quisque at finibus dui. Vivamus placerat purus sed mi tincidunt, et pretium mauris finibus. Praesent sagittis imperdiet rhoncus. Suspendisse quis imperdiet libero. Nam non lacus semper nulla fermentum pulvinar interdum nec risus. Quisque a viverra eros, vel vulputate justo.
+## Our Principles
 
-Morbi vitae nisi a tellus ultrices imperdiet sit amet sed sem. Nullam ut ipsum quis massa dignissim feugiat. Etiam congue interdum elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin rhoncus nisi velit, lacinia venenatis massa eleifend eget. Praesent velit diam, eleifend vel placerat sed, bibendum et lorem. Ut posuere dictum nunc, et tristique enim aliquam eu. Etiam convallis varius ipsum et semper. Aliquam erat volutpat.
+### Beyond the medical model
+
+While we respect whatever treatment decisions people make, we challenge standard
+definitions of psychic difference as essentially diseased, disordered, broken,
+faulty, and existing within the bounds of DSM-IV diagnosis. We are exploring
+unknown territory and don’t steer by the default maps outlined by docs and
+pharma companies. We’re making new maps.
+
+### Educating ourselves about alternatives
+
+A lot of what the media, medical establishment, and institutions tell us about
+“mental illness,” psych drugs, and how we have to live our lives is just not
+true. We educate ourselves and each other. We question what we hear on TV and
+read in doctor’s office brochures. We explore holistic and spiritual approaches
+to handling our extreme states of consciousness. We learn as much as we can
+about any medical treatments, and encourage each other to make informed choices.
+Icarus is a sanctuary for people thinking outside the mainstream and creating
+their own definitions of health and wellness.
+
+### Balancing wellness and action
+
+Icarus is a place for supporting each other in practicing real self-care. This
+includes but is not limited to: making sure we don’t neglect our personal basics
+like food, rest, exercise, and community; encouraging each other to commit to
+the amount of work we can actually do, and not push ourselves past our limits;
+and challenging ourselves to find daily routines and projects that help us live
+out our dreams and have enough structure to get by.
+
+### Access
+
+We don’t need more alternatives that only rich people can afford. All Icarus
+gatherings follow the policy that ’no one is turned away for lack of funds.’ We
+work to create options and choices that are available to all.
+
+### Non judgment and respect for diversity
+
+We welcome people who support psych drugs and people who do not, as well as
+people who use diagnostic labels and people who do not identify with those
+terms. We do not exclude people on the basis of politics, lifestyle choice,
+diagnostic history, recreational drug use, “criminal” behavior, or other
+outsider identities. We all have a lot to learn from each other, so we respect
+each others’ choices. While the current social system and medical model have the
+tendency to divide us, we want our understanding of and experiences with madness
+to unite us.
+
+### Non-hierarchy and anti-oppression
+
+Local groups need to be anti-authoritarian, inclusive, and working against
+racism/classism/sexism/homophobia and other oppressions. As a radical mental
+health support network, our affiliated groups create safe and challenging spaces
+where oppressive behavior is not tolerated.
+
+### Nonviolence
+
+We believe that we will bring about lasting change in the world through
+dialogue, compassionate listening, mutual aid, and grassroots networks of
+support. We hope these approaches contribute to forming viable alternatives to
+the current system of government, bureaucracy, domination, and corporate
+culture.
+
+### Transparency
+
+We believe in public access to information about how we are making decisions,
+spending money, distributing responsibility, and otherwise delegating the work
+of organizing together.
+
+![Icarus Girl by Fly](/icarus-girl.png){.center style="max-width:80px;"}
