@@ -1,5 +1,7 @@
 .ArticleGrid {
   display: grid;
+  list-style: none;
+  margin: 0;
   padding: var(--gap-size);
 
   grid-template-columns: 1fr 1fr;

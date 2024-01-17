@@ -3,8 +3,13 @@ title: The Bipolar World
 subhed: First Printed in the SF Bay Guardian September 2002
 author: Sascha Altman DuBrul
 published: September 2002
+thumb: /bipolar-world-i.jpg
+thumb_alt: The Forest and Subway
+order: 1
+
 tags:
   - first-person accounts
+  - promoted
 ---
 
 ![The Forest and Subway](/bipolar-world-i.jpg){.full}

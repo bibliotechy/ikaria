@@ -1,0 +1,18 @@
+<a href="{{ article.url }}" class="ArticleThumb">
+  <div class="ArticleThumb-imgWrap">
+    <img
+      src="{{ article.data.thumb }}"
+      alt="{{ article.data.thumb_alt }}"
+      class="ArticleThumb-img"
+    />
+  </div>
+
+  <div class="ArticleThumb-details">
+    <div class="ArticleThumb-byline">
+      <div class="ArticleThumb-author">{{ article.data.author }}</div>
+      <div class="ArticleThumb-published">{{ article.data.published }}</div>
+    </div>
+
+    <h3 class="ArticleThumb-title">{{ article.data.title }}</h3>
+  </div>
+</a>

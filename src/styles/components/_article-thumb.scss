@@ -1,8 +1,15 @@
 .ArticleThumb {
+  display: block;
   position: relative;
   font-size: 1rem;
-  color: #fff;
+  background: #000;
   -webkit-font-smoothing: antialiased;
+
+  &,
+  &:hover,
+  &:visited {
+    color: #fff;
+  }
 
   // There's more space for the font at mobile when there are fewer cols, and at
   // desktop when there's more space, it's this middle part that's a problem.
@@ -16,22 +23,24 @@
 
   &-imgWrap {
     position: relative;
+    opacity: 1;
+    transition: opacity 0.3s;
+
+    &::after {
+      content: '';
+      display: block;
+      position: relative;
+      padding-bottom: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 25%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
+    }
   }
 
-  &-imgWrap::after {
-    content: '';
-    display: block;
-    position: relative;
-    padding-bottom: 100%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1) 25%,
-      rgba(0, 0, 0, 0.8) 100%
-    );
-
-    .ArticleThumb--2x1 & {
-      padding-bottom: calc(50% - (var(--gap-size) / 2));
-    }
+  &:hover &-imgWrap {
+    opacity: 0.4;
   }
 
   &-img {
@@ -59,10 +68,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-
-    .ArticleThumb--2x2 & {
-      font-size: 2.5em;
-    }
   }
 
   &-byline {
@@ -82,5 +87,20 @@
 
   &-published {
     display: none;
+  }
+}
+
+.ArticleGrid-item {
+  // 2x1 cards in the 3rd and 5th position:
+  &:nth-child(7n + 3),
+  &:nth-child(7n + 5) {
+    .ArticleThumb-imgWrap::after {
+      padding-bottom: calc(50% - (var(--gap-size) / 2));
+    }
+  }
+
+  // 2x2 card in the 4th position:
+  &:nth-child(7n + 4) {
+    font-size: 2.5em;
   }
 }
