@@ -100,7 +100,7 @@
   }
 
   // 2x2 card in the 4th position:
-  &:nth-child(7n + 4) {
+  &:nth-child(7n + 4) .ArticleThumb-title {
     font-size: 2.5em;
   }
 }
