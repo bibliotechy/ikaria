@@ -171,6 +171,13 @@
       }
     }
 
+    .pullquote blockquote {
+      @include bp(M) {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
     // FIGURES
 
     figure {
