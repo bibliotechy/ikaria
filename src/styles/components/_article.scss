@@ -114,8 +114,8 @@
       }
     }
 
-    :last-child,
-    :last-child :last-child {
+    > :last-child,
+    > :last-child :last-child {
       margin-bottom: 0;
       padding-bottom: 0;
     }
@@ -137,12 +137,14 @@
       }
     }
 
-    figcaption {
-      @include bp(M) {
-        margin: 0.225rem -60% 0 0;
-        line-height: 1.3;
-      }
-    }
+    // figcaption {
+    //   @include bp(M) {
+    //     float: right;
+    //     clear: right;
+    //     margin: 0.225rem -60% 0 0;
+    //     width: 50%;
+    //   }
+    // }
 
     .fullwidth figure {
       width: calc(100% + var(--outer-x-padding) * 2);
