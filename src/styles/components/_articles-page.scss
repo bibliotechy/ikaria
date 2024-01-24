@@ -1,19 +1,11 @@
 .ArticlesPage {
   max-width: var(--outer-max-width);
-  margin: 5rem auto 0;
+  margin: 5rem auto;
   padding: 0 var(--outer-x-padding);
 
   &-title {
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0 0 0.2em;
+    margin: 0 0 5rem;
     border-bottom: solid 1px currentColor;
     padding-bottom: 1rem;
-  }
-
-  &-title,
-  &-content {
-    padding-left: var(--inner-x-padding);
-    padding-right: var(--inner-x-padding);
   }
 }
