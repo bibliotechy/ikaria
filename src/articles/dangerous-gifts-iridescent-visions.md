@@ -5,6 +5,7 @@ published: 2007
 thumb: /cloud-atlas.png
 thumb_alt: Some kind of Cloud-Atlas thing
 order: 5
+attachments: /docs/dangerous-gifts-iridescent-visions-and-mad-community-2007.pdf
 
 tags:
   - first-person accounts
