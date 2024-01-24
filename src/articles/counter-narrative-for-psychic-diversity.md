@@ -557,10 +557,10 @@ the Lower East Side of New York known as ABC No Rio. It was surreal; not only
 were they giving us $80,000 to work on our dream project, but we had also
 stepped suddenly into a world of legitimacy to which we never expected to gain
 access. Within 6 months of receiving the grant, we recruited a handful of
-amazing organizers, collectivized our organization, and revised our mission and
-vision statements to reflect our evolving political and social analysis. In
-short, this was the statement, not just of a non-profit but of an aspiring
-movement:
+amazing organizers, collectivized our organization, and revised
+[our mission and vision statements](/articles/mission-2005) to reflect our
+evolving political and social analysis. In short, this was the statement, not
+just of a non-profit but of an aspiring movement:
 
 ### Icarus project mission statement (2005)
 
