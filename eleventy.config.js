@@ -126,6 +126,7 @@ module.exports = (eleventyConfig) => {
       'article',
       'gallery',
       'promoted',
+      'homepage',
     ])
     return (tags || []).filter((tag) => !ignoredTags.has(tag))
   })
