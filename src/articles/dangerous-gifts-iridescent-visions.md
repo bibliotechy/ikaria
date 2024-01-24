@@ -24,7 +24,7 @@ tags:
 > world. Our participation in The Icarus Project helps us overcome alienation
 > and tap into the true potential that lies between brilliance and madness
 >
-> <footer>—From our Vision Statement</footer>
+> <footer>—From our <a href="/articles/mission-2005">Vision Statement</a></footer>
 
 </div>
 
