@@ -7,9 +7,12 @@ thumb: /bipolar-world-i.jpg
 thumb_alt: The Forest and Subway
 order: 1
 
+attachments: /docs/bipolar-world.pdf
+
 tags:
-  - first-person accounts
   - promoted
+  - first-person accounts
+  - navigating the space
 ---
 
 <div class="fullwidth">

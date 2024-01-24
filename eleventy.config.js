@@ -131,6 +131,10 @@ module.exports = (eleventyConfig) => {
     return (tags || []).filter((tag) => !ignoredTags.has(tag))
   })
 
+  eleventyConfig.addFilter('filename', (filePath) => path.basename(filePath))
+
+  eleventyConfig.addFilter('isArr', (x) => Array.isArray(x))
+
   // Copy contents of public into build
   eleventyConfig.addPassthroughCopy({ './public/': '/' })
   eleventyConfig.addPassthroughCopy('./src/scripts/**/*.js')

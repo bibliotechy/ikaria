@@ -48,6 +48,28 @@ layout: layouts/base.njk
         </li>
         {%- endfor %}
       </ul>
+
+      {% if attachments %}
+      <section class="Article-attachments">
+        <h2 class="Article-attachmentsLabel">Files</h2>
+        {% if (attachments | isArr) %}
+        <ul class="Article-attachmentList">
+          {% for file in attachments %}
+          <li class="Article-attachment">
+            {% include 'attachment-link.njk' %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+
+        <div class="Article-attachmentList">
+          <div class="Article-attachment">
+            {% set file = attachments %} {% include 'attachment-link.njk' %}
+          </div>
+        </div>
+        {% endif %}
+      </section>
+      {% endif %}
     </div>
   </header>
   {% endif %}
