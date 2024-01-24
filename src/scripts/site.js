@@ -31,7 +31,7 @@ window.graphNav = {
     // The edges of the svg are where the nodes get cropped if you pull it.
     // Keep them the same aspect ratio as background image.
     const width = 1440
-    const height = 1053
+    const height = 904
     const radius = 80
     const strength = -9000
 
