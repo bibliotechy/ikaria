@@ -5,29 +5,32 @@ published: July 17 2014
 thumb: /drooker-subway.png
 thumb_alt: Subway Skeletons by Eric Drooker
 order: 4
+attachments: /docs/dubrul-2014.pdf
 
 tags:
   - first-person accounts
   - promoted
 ---
 
-**Abstract** Over the past 12 years, I’ve had the good fortune of collaborating
-with others to create a project which challenges and complicates the dominant
-biopsychiatric model of mental illness. The Icarus Project, founded in 2002, not
-only critiqued the terms and practices central to the biopsychiatric model, it
-also inspired a new language and a new community for people struggling with
-mental health issues in the 21st century. The Icarus Project believes that
-humans are meaning makers, that meaning is created through developing
-intrapersonal and interpersonal narratives, and that these narratives are
-important sites of creativity, struggle, and growth. The Icarus counter
-narrative and the community it fostered has been invaluable for people around
-the world dealing with psychic diversity—particularly for people alienated by
-mainstream approaches. But, despite the numbers of people who have been inspired
-by this approach, the historical background of the Icarus Project is hard to
-find. It exists primarily in oral history, newspaper articles, unpublished or
-self-published Icarus documents, and in internet discussion forums. As the
-co-founder of the Icarus Project, I use this article to make my understanding of
-that history and its key documents more widely available.
+## Abstract
+
+Over the past 12 years, I’ve had the good fortune of collaborating with others
+to create a project which challenges and complicates the dominant biopsychiatric
+model of mental illness. The Icarus Project, founded in 2002, not only critiqued
+the terms and practices central to the biopsychiatric model, it also inspired a
+new language and a new community for people struggling with mental health issues
+in the 21st century. The Icarus Project believes that humans are meaning makers,
+that meaning is created through developing intrapersonal and interpersonal
+narratives, and that these narratives are important sites of creativity,
+struggle, and growth. The Icarus counter narrative and the community it fostered
+has been invaluable for people around the world dealing with psychic
+diversity—particularly for people alienated by mainstream approaches. But,
+despite the numbers of people who have been inspired by this approach, the
+historical background of the Icarus Project is hard to find. It exists primarily
+in oral history, newspaper articles, unpublished or self-published Icarus
+documents, and in internet discussion forums. As the co-founder of the Icarus
+Project, I use this article to make my understanding of that history and its key
+documents more widely available.
 
 **Keywords** Community-based practices · Consumer activism · Mad pride ·
 Intrapersonal narrative · Interpersonal narrative · Cultural studies · Narrative
