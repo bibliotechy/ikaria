@@ -6,6 +6,7 @@
   line-height: 1.6;
   display: flow-root;
   background: #fff;
+  font-family: var(--font-family-sans);
 
   @include bp(S) {
     background: transparent;

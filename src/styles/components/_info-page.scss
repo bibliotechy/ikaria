@@ -1,0 +1,36 @@
+.InfoPage {
+  margin: 0 auto;
+  max-width: var(--outer-max-width);
+  padding: 0 var(--outer-x-padding);
+
+  &-content {
+    > section {
+      clear: both;
+      margin-bottom: 5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    @include bp(M) {
+      h1,
+      h2,
+      h3,
+      h4,
+      .leftside {
+        width: 50%;
+        float: left;
+        clear: left;
+        padding-right: 1rem;
+      }
+
+      > :not(section, h1),
+      > section > :not(h1, h2, h3, h4, .leftside) {
+        width: 50%;
+        margin-left: 50%;
+        padding-left: 1rem;
+      }
+    }
+  }
+}

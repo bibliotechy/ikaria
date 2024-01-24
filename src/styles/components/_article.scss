@@ -13,7 +13,7 @@
   }
 
   &-header {
-    // font-family: var(--font-family-serif);
+    font-family: var(--font-family-sans);
     margin: 0 auto;
     max-width: var(--outer-max-width);
     padding: 0 var(--outer-x-padding) 3rem;
@@ -23,12 +23,6 @@
     @include bp(M) {
       width: calc(var(--p-width) + var(--inner-x-padding));
     }
-  }
-
-  &-title {
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0 0 0.2em;
   }
 
   &-subhed {

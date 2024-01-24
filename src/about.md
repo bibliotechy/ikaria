@@ -1,107 +1,71 @@
 ---
 title: About
-layout: layouts/article.njk
-hero: /about-header.png
+layout: layouts/info-page.njk
+# hero: /about-header.png
 tags: ['homepage']
 ---
 
-_The Icarus Project_ envisions a new culture and language that resonates with
-our actual experiences of ’mental illness’ rather than trying to fit our lives
-into a conventional framework. We are a network of people living with and/or
-affected by experiences that are often diagnosed and labeled as psychiatric
-conditions. We believe these experiences are dangerous gifts needing cultivation
-and care, rather than diseases or disorders. By joining together as individuals
-and as a community, the intertwined threads of madness, creativity, and
-collaboration can inspire hope and transformation in an oppressive and damaged
-world. Participation in The Icarus Project helps us overcome alienation and tap
-into the true potential that lies between brilliance and madness.
+<div class="epigraph">
 
-<!-- more -->
+> How might we grapple with the death of Icarus and the communities founded upon
+> his myth? Are they fated to meet a similar end? And what knowledge can be
+> gleaned from all the specters— fragmented memories, empty screens, broken
+> hearts, gravestones—that still linger?
+>
+> <footer>—Erica Hua Fletcher, <em>Mad Together in Technogenic Times</em></footer>
 
-![Icarus over Manhattan by Eric Drooker](/icarus-over-manhattan.jpg){.left}Together, we seek new space and freedom for extreme states of consciousness. We
-support alternatives to the medical model and acknowledge the traumatic legacy
-of psychiatric abuse. We recognize that we all live in a crazy world, and
-believe that sensitivities, visions, and inspirations are not necessarily
-symptoms of illness. Sometimes breakdown can be the entrance to breakthrough. We
-call for more options in understanding and treating emotional distress, and we
-advocate for everyone, regardless of income, to have access to these choices. We
-respect diversity and embrace harm-reduction and self-determination in treatment
-decisions. Everyone is welcome, whether they support the use of psychiatric
-drugs or not, and whether they identify with diagnostic categories or not.
+</div>
 
-To ensure we remain honest and untamed, we do not accept funding from
-pharmaceutical companies. We invite anyone who shares the Icarus vision and
-principles to join us, and choose “The Icarus Project” or any other name for the
-independent efforts that inspire them.
+<section>
 
----
+## What's The Icarus Project?
 
-## Our Principles
+_The Icarus Project_ (2002-2020) was a network of peer support groups and media
+projects aimed at changing the language and culture of what gets called mental
+health and mental illness.
 
-### Beyond the medical model
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies aliquam augue ut blandit. Nullam vel eleifend ex, eu congue neque. Nunc mollis sagittis sem eget placerat. Proin at sapien semper, fermentum mauris eget, rhoncus lacus. Sed at est leo. Pellentesque vitae libero ligula. Integer libero mi, condimentum nec suscipit at, viverra vitae lectus. Nam gravida elementum est eget malesuada. Donec ullamcorper volutpat eros, non maximus quam fermentum non.
 
-While we respect whatever treatment decisions people make, we challenge standard
-definitions of psychic difference as essentially diseased, disordered, broken,
-faulty, and existing within the bounds of DSM-IV diagnosis. We are exploring
-unknown territory and don’t steer by the default maps outlined by docs and
-pharma companies. We’re making new maps.
+Phasellus in ligula condimentum nunc dictum viverra. In in imperdiet libero, quis venenatis nisi. Pellentesque quis quam ut nisi consequat vulputate eu et ex. Nam sodales sodales dui id egestas. Sed elementum, tortor pharetra suscipit egestas, mauris nulla tincidunt mi, in accumsan tellus lectus et lacus. Mauris sed nisl sit amet dolor facilisis luctus. Phasellus eget tincidunt ipsum, ac imperdiet arcu. Duis vitae commodo libero, elementum pharetra tortor. Nulla sed nisl ullamcorper, mollis dolor in, convallis enim. Nam sit amet lorem id est tincidunt semper a in arcu. Donec congue aliquam dui, eget vulputate risus condimentum a. Nullam porta mollis ipsum quis gravida. Maecenas eleifend quam nunc, sit amet ultrices urna scelerisque vestibulum. Quisque non dignissim enim.
 
-### Educating ourselves about alternatives
+Sed lobortis vel augue vel bibendum. Nam consequat tempor quam elementum eleifend. Nulla sit amet neque ligula. Fusce in ex at mauris posuere gravida. Nam id pulvinar nibh, eu cursus ante. In nec ipsum eros. Morbi dapibus tellus ut volutpat placerat. Nunc tempus lobortis libero nec malesuada. Vestibulum non velit augue. Integer eget erat tincidunt odio tempor suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc a ligula vestibulum, laoreet ipsum ac, malesuada mauris. Cras accumsan magna turpis. Quisque nec eros sed massa maximus dapibus. Nam lacinia venenatis eros, vitae consectetur nisl eleifend vitae.
 
-A lot of what the media, medical establishment, and institutions tell us about
-“mental illness,” psych drugs, and how we have to live our lives is just not
-true. We educate ourselves and each other. We question what we hear on TV and
-read in doctor’s office brochures. We explore holistic and spiritual approaches
-to handling our extreme states of consciousness. We learn as much as we can
-about any medical treatments, and encourage each other to make informed choices.
-Icarus is a sanctuary for people thinking outside the mainstream and creating
-their own definitions of health and wellness.
+</section>
 
-### Balancing wellness and action
+<section>
 
-Icarus is a place for supporting each other in practicing real self-care. This
-includes but is not limited to: making sure we don’t neglect our personal basics
-like food, rest, exercise, and community; encouraging each other to commit to
-the amount of work we can actually do, and not push ourselves past our limits;
-and challenging ourselves to find daily routines and projects that help us live
-out our dreams and have enough structure to get by.
+## What Happened to The Icarus Project?
 
-### Access
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies aliquam augue ut blandit. Nullam vel eleifend ex, eu congue neque. Nunc mollis sagittis sem eget placerat. Proin at sapien semper, fermentum mauris eget, rhoncus lacus. Sed at est leo. Pellentesque vitae libero ligula. Integer libero mi, condimentum nec suscipit at, viverra vitae lectus. Nam gravida elementum est eget malesuada. Donec ullamcorper volutpat eros, non maximus quam fermentum non.
 
-We don’t need more alternatives that only rich people can afford. All Icarus
-gatherings follow the policy that ’no one is turned away for lack of funds.’ We
-work to create options and choices that are available to all.
+Phasellus in ligula condimentum nunc dictum viverra. In in imperdiet libero, quis venenatis nisi. Pellentesque quis quam ut nisi consequat vulputate eu et ex. Nam sodales sodales dui id egestas. Sed elementum, tortor pharetra suscipit egestas, mauris nulla tincidunt mi, in accumsan tellus lectus et lacus. Mauris sed nisl sit amet dolor facilisis luctus. Phasellus eget tincidunt ipsum, ac imperdiet arcu. Duis vitae commodo libero, elementum pharetra tortor. Nulla sed nisl ullamcorper, mollis dolor in, convallis enim. Nam sit amet lorem id est tincidunt semper a in arcu. Donec congue aliquam dui, eget vulputate risus condimentum a. Nullam porta mollis ipsum quis gravida. Maecenas eleifend quam nunc, sit amet ultrices urna scelerisque vestibulum. Quisque non dignissim enim.
 
-### Non judgment and respect for diversity
+Sed lobortis vel augue vel bibendum. Nam consequat tempor quam elementum eleifend. Nulla sit amet neque ligula. Fusce in ex at mauris posuere gravida. Nam id pulvinar nibh, eu cursus ante. In nec ipsum eros. Morbi dapibus tellus ut volutpat placerat. Nunc tempus lobortis libero nec malesuada. Vestibulum non velit augue. Integer eget erat tincidunt odio tempor suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc a ligula vestibulum, laoreet ipsum ac, malesuada mauris. Cras accumsan magna turpis. Quisque nec eros sed massa maximus dapibus. Nam lacinia venenatis eros, vitae consectetur nisl eleifend vitae.
 
-We welcome people who support psych drugs and people who do not, as well as
-people who use diagnostic labels and people who do not identify with those
-terms. We do not exclude people on the basis of politics, lifestyle choice,
-diagnostic history, recreational drug use, “criminal” behavior, or other
-outsider identities. We all have a lot to learn from each other, so we respect
-each others’ choices. While the current social system and medical model have the
-tendency to divide us, we want our understanding of and experiences with madness
-to unite us.
+</section>
 
-### Non-hierarchy and anti-oppression
+<section>
 
-Local groups need to be anti-authoritarian, inclusive, and working against
-racism/classism/sexism/homophobia and other oppressions. As a radical mental
-health support network, our affiliated groups create safe and challenging spaces
-where oppressive behavior is not tolerated.
+## What's This Website?
 
-### Nonviolence
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies aliquam augue ut blandit. Nullam vel eleifend ex, eu congue neque. Nunc mollis sagittis sem eget placerat. Proin at sapien semper, fermentum mauris eget, rhoncus lacus. Sed at est leo. Pellentesque vitae libero ligula. Integer libero mi, condimentum nec suscipit at, viverra vitae lectus. Nam gravida elementum est eget malesuada. Donec ullamcorper volutpat eros, non maximus quam fermentum non.
 
-We believe that we will bring about lasting change in the world through
-dialogue, compassionate listening, mutual aid, and grassroots networks of
-support. We hope these approaches contribute to forming viable alternatives to
-the current system of government, bureaucracy, domination, and corporate
-culture.
+Phasellus in ligula condimentum nunc dictum viverra. In in imperdiet libero, quis venenatis nisi. Pellentesque quis quam ut nisi consequat vulputate eu et ex. Nam sodales sodales dui id egestas. Sed elementum, tortor pharetra suscipit egestas, mauris nulla tincidunt mi, in accumsan tellus lectus et lacus. Mauris sed nisl sit amet dolor facilisis luctus. Phasellus eget tincidunt ipsum, ac imperdiet arcu. Duis vitae commodo libero, elementum pharetra tortor. Nulla sed nisl ullamcorper, mollis dolor in, convallis enim. Nam sit amet lorem id est tincidunt semper a in arcu. Donec congue aliquam dui, eget vulputate risus condimentum a. Nullam porta mollis ipsum quis gravida. Maecenas eleifend quam nunc, sit amet ultrices urna scelerisque vestibulum. Quisque non dignissim enim.
 
-### Transparency
+Sed lobortis vel augue vel bibendum. Nam consequat tempor quam elementum eleifend. Nulla sit amet neque ligula. Fusce in ex at mauris posuere gravida. Nam id pulvinar nibh, eu cursus ante. In nec ipsum eros. Morbi dapibus tellus ut volutpat placerat. Nunc tempus lobortis libero nec malesuada. Vestibulum non velit augue. Integer eget erat tincidunt odio tempor suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc a ligula vestibulum, laoreet ipsum ac, malesuada mauris. Cras accumsan magna turpis. Quisque nec eros sed massa maximus dapibus. Nam lacinia venenatis eros, vitae consectetur nisl eleifend vitae.
 
-We believe in public access to information about how we are making decisions,
-spending money, distributing responsibility, and otherwise delegating the work
-of organizing together.
+</section>
+
+<section>
+
+## What's the Future of Icarus?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies aliquam augue ut blandit. Nullam vel eleifend ex, eu congue neque. Nunc mollis sagittis sem eget placerat. Proin at sapien semper, fermentum mauris eget, rhoncus lacus. Sed at est leo. Pellentesque vitae libero ligula. Integer libero mi, condimentum nec suscipit at, viverra vitae lectus. Nam gravida elementum est eget malesuada. Donec ullamcorper volutpat eros, non maximus quam fermentum non.
+
+Phasellus in ligula condimentum nunc dictum viverra. In in imperdiet libero, quis venenatis nisi. Pellentesque quis quam ut nisi consequat vulputate eu et ex. Nam sodales sodales dui id egestas. Sed elementum, tortor pharetra suscipit egestas, mauris nulla tincidunt mi, in accumsan tellus lectus et lacus. Mauris sed nisl sit amet dolor facilisis luctus. Phasellus eget tincidunt ipsum, ac imperdiet arcu. Duis vitae commodo libero, elementum pharetra tortor. Nulla sed nisl ullamcorper, mollis dolor in, convallis enim. Nam sit amet lorem id est tincidunt semper a in arcu. Donec congue aliquam dui, eget vulputate risus condimentum a. Nullam porta mollis ipsum quis gravida. Maecenas eleifend quam nunc, sit amet ultrices urna scelerisque vestibulum. Quisque non dignissim enim.
+
+Sed lobortis vel augue vel bibendum. Nam consequat tempor quam elementum eleifend. Nulla sit amet neque ligula. Fusce in ex at mauris posuere gravida. Nam id pulvinar nibh, eu cursus ante. In nec ipsum eros. Morbi dapibus tellus ut volutpat placerat. Nunc tempus lobortis libero nec malesuada. Vestibulum non velit augue. Integer eget erat tincidunt odio tempor suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc a ligula vestibulum, laoreet ipsum ac, malesuada mauris. Cras accumsan magna turpis. Quisque nec eros sed massa maximus dapibus. Nam lacinia venenatis eros, vitae consectetur nisl eleifend vitae.
+
+</section>
 
 ![Icarus Girl by Fly](/icarus-girl.png){.center style="max-width:80px;"}
