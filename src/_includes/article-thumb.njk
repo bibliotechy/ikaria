@@ -10,10 +10,12 @@
   </div>
 
   <div class="ArticleThumb-details">
+    {% if article.data.author %}
     <div class="ArticleThumb-byline">
       <div class="ArticleThumb-author">{{ article.data.author }}</div>
       <div class="ArticleThumb-published">{{ article.data.published }}</div>
     </div>
+    {% endif %}
 
     <h3 class="ArticleThumb-title">{{ article.data.title }}</h3>
   </div>
