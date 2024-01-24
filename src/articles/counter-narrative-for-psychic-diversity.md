@@ -29,9 +29,9 @@ self-published Icarus documents, and in internet discussion forums. As the
 co-founder of the Icarus Project, I use this article to make my understanding of
 that history and its key documents more widely available.
 
-**Keywords** Community-based practices. Consumer activism . Mad pride .
-Intrapersonal narrative . Interpersonal narrative . Cultural studies. Narrative
-power analysis. Alternative forms of mental health care . Biopsychiatry .
+**Keywords** Community-based practices · Consumer activism · Mad pride ·
+Intrapersonal narrative · Interpersonal narrative · Cultural studies · Narrative
+power analysis · Alternative forms of mental health care · Biopsychiatry ·
 Bipolar disorder
 
 ## Emergence of the icarus project
@@ -65,7 +65,7 @@ the story by saying:
 > In the end, what it comes down to for me is that I desperately feel the need
 > to connect with other folks like myself so I can validate my experiences and
 > not feel so damn alone in the world, so I can pass along the lessons I’ve
-> learned to help make it easier for other people struggling like myself.By my
+> learned to help make it easier for other people struggling like myself. By my
 > nature and the way I was raised, I don’t trust mainstream medicine or
 > corporate culture, but the fact that I’m sitting here writing this essay right
 > now is proof that their drugs are helping me. And I’m looking for others out
@@ -113,13 +113,13 @@ initial vision statement:
 >
 > The Icarus Project was created in the beginning of the 21st century by a group
 > of people diagnosed in the contemporary language as Bipolar or
-> Manic-Depressive.Defining ourselves outside convention we see our condition
+> Manic-Depressive. Defining ourselves outside convention we see our condition
 > as a dangerous gift to be cultivated and taken care of rather than as a
 > disease or disorder needing to be ‘cured.’ With this double edged blessing we
 > have the ability to fly to places of great vision and creativity, but like the
 > boy Icarus, we also have the potential to fly dangerously close to the
 > sun—into realms of delusion and psychosis—and crash in a blaze of fire and
-> confusion.At our heights we may find ourselves capable of creating music,
+> confusion. At our heights we may find ourselves capable of creating music,
 > art, words, and inventions which touch people’s souls and change the course of
 > history. At our depths we may end up alienated and alone, incarcerated in
 > psychiatric institutions, or dead by our own hands.

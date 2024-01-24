@@ -11,7 +11,9 @@ tags:
   - promoted
 ---
 
-> The Icarus Project envisions a new culture and language that reso nates with
+<div class="epigraph">
+
+> The Icarus Project envisions a new culture and language that resonates with
 > our actual experiences of “mental illness” rather than trying to fit our lives
 > into a conventional framework. We are a network of people living with
 > experiences that are commonly labeled as bipolar or related madness. We believe
@@ -20,8 +22,11 @@ tags:
 > as individuals in communities, the intertwined threads of madness and
 > creativity can inspire hope and transformation in a repressed and damaged
 > world. Our participation in The Icarus Project helps us overcome alienation
-> and tap into the true potential that lies between brilliance and madness (From
-> our Vision Statement).
+> and tap into the true potential that lies between brilliance and madness
+>
+> <footer>—From our Vision Statement</footer>
+
+</div>
 
 ## Psych Wards and Storytelling: The Early Years
 
@@ -82,7 +87,7 @@ for the ideas that they would soon begin to make manifest. They decided to
 construct a website replete with articles, resources, artwork, and most
 importantly, forums where people from all over the world could meet to discuss
 their own experiences of madness, ones that didn’t necessarily coalesce with the
-psychiatric mainstream. The website <www.theicarusproject.net> grew rapidly to
+psychiatric mainstream. The website <http://www.theicarusproject.net> grew rapidly to
 include thousands of members, sharing their stories, offering support to each
 other, giving advice, and creating a community unlike any that had ever existed
 before.
@@ -163,7 +168,9 @@ projects as individual artists, we not only have an added impetus to create but
 ideally a safety net to catch us if the fire burns too bright.
 
 Those of us who experience madness might also describe ourselves as possessing
-“exquisite nervous systems.”[^1] That is to say that perhaps we are more sensitive
+“exquisite nervous systems.”^[This phrase was coined by Gloria Mitchell, Ph.D.,
+a practicing clinical psychologist and the author’s tremendously perceptive and
+exceptionally supportive mother.] That is to say that perhaps we are more sensitive
 than the general population, which allows us to take in more, to think more
 rapidly, and to perceive relationships, connections and details that others may
 not notice or consider to be of little consequence. Some would, and do, consider
@@ -277,11 +284,6 @@ allows us to find connections where previously there was isolation, and it
 creates the space for us to come together around our pain while building a world
 that reflects the gorgeous alternative visions that so many of us harbor in our
 dangerously gifted minds.
-
-[^1]:
-    This phrase was coined by Gloria Mitchell, Ph.D., a practicing clinical
-    psychologist and the author’s tremendously perceptive and exceptionally
-    supportive mother.
 
 ## Sources
 

@@ -13,8 +13,8 @@ const pluginBundle = require('@11ty/eleventy-plugin-bundle')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
 const implicitFigures = require('markdown-it-implicit-figures')
-const footnotes = require('markdown-it-footnote')
 const markdownAttrs = require('markdown-it-attrs')
+const sidenotes = require('./lib/markdown-it-sidenotes')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget('./{src,public}/**/*.{svg,webp,png,jpg,jpeg}')
@@ -35,7 +35,7 @@ module.exports = (eleventyConfig) => {
     })
     mdLib.use(implicitFigures, { figcaption: 'title' })
 
-    mdLib.use(footnotes)
+    mdLib.use(sidenotes)
   })
 
   // Adapted from https://11ty.rocks/posts/process-css-with-lightningcss/

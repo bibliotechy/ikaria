@@ -12,11 +12,15 @@ tags:
   - promoted
 ---
 
-![The Forest and Subway](/bipolar-world-i.jpg){.full}
+<div class="fullwidth">
+
+![The Forest and Subway](/bipolar-world-i.jpg)
+
+</div>
 
 ### I.
 
-**I WAS 18 years old the first time they locked me up in a psych ward.** The police found me walking on the subway tracks in New York City, and I was convinced the world was about to end and I was being broadcast live on prime-time TV on all the channels. I hadn’t slept for months, and I thought there were microscopic transmitters under my skin that were making me itch and recording everything I was saying for some top-secret branch of the CIA. After I’d walked the tracks through three stations, the cops wrestled me to the ground, arrested me, and brought me to an underground jail cell and then to the emergency room of Bellevue psychiatric hospital, where they strapped me to a bed. Once they managed to track down my terrified mother, she signed some papers, a nurse shot me up with some hardcore antipsychotic drugs, and I woke up two weeks later in the “quiet room” of a public mental hospital upstate.
+**<span class="newthought">I was 18</span> years old the first time they locked me up in a psych ward.** The police found me walking on the subway tracks in New York City, and I was convinced the world was about to end and I was being broadcast live on prime-time TV on all the channels. I hadn’t slept for months, and I thought there were microscopic transmitters under my skin that were making me itch and recording everything I was saying for some top-secret branch of the CIA. After I’d walked the tracks through three stations, the cops wrestled me to the ground, arrested me, and brought me to an underground jail cell and then to the emergency room of Bellevue psychiatric hospital, where they strapped me to a bed. Once they managed to track down my terrified mother, she signed some papers, a nurse shot me up with some hardcore antipsychotic drugs, and I woke up two weeks later in the “quiet room” of a public mental hospital upstate.
 
 I’d spent the previous year as a freshman at a prestigious private college in Portland, Or. At some point in the spring, around finals time, I’d gotten sick and gone to the campus health clinic. The school nurse gave me a prescription for penicillin, and I had an allergic reaction to it and almost died. To counteract the effects of the antibiotic, the hospital gave me a hardcore steroid called Prednisone, which totally messed up my sleeping schedule.
 
@@ -64,7 +68,11 @@ Jamison has another, less well-known book called Touched with Fire: Manic Depres
 
 Touched with Fire left me wondering what a book about the relationship between bipolar disorder and creativity would look like if it was a little less academic and if the examples used were more contemporary artists and musicians, people whom (less classically cultured) folks from my generation might have actually heard of and be able to relate to.
 
+<div class="fullwidth">
+
 ![Book covers](/bipolar-world-ii.jpg)
+
+</div>
 
 ### III.
 

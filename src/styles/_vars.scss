@@ -1,8 +1,12 @@
 :root {
   // Typography
-  --font-family: -apple-system, system-ui, sans-serif;
-  --font-family-display: Hack, Consolas, Menlo, Monaco, Andale Mono WT,
-    Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
+  --font-family-sans: -apple-system, system-ui, sans-serif;
+  // --font-family-sans: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  // --font-family-sans: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  --font-family-serif: et-book, Palatino, 'Palatino Linotype', 'Palatino LT STD',
+    'Book Antiqua', Georgia, serif;
+  --font-family-mono: Hack, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
+    Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
     Courier, monospace;
 

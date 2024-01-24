@@ -30,7 +30,6 @@
     "lightningcss": "^1.22.0",
     "luxon": "^3.4.4",
     "markdown-it-attrs": "^4.1.6",
-    "markdown-it-footnote": "^4.0.0",
     "markdown-it-implicit-figures": "^0.12.0",
     "sass": "^1.69.5"
   }

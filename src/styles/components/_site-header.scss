@@ -4,6 +4,12 @@
 }
 
 .SiteHeader {
+  padding-top: 1rem;
+
+  body.page--home & {
+    padding-top: 0;
+  }
+
   &-inner {
     max-width: var(--outer-max-width);
     padding: 0 var(--outer-x-padding);
@@ -11,9 +17,9 @@
     position: relative;
     z-index: 20;
     pointer-events: none;
-    top: var(--inner-x-padding);
 
     body.page--home & {
+      top: var(--inner-x-padding);
       position: absolute;
       right: 0;
       left: 0;
@@ -21,8 +27,7 @@
   }
 
   &-title {
-    font-family: var(--font-family-display);
-    font-size: 20px;
+    font-family: var(--font-family-mono);
     font-weight: bold;
     text-transform: lowercase;
     line-height: 1.7em;
@@ -30,13 +35,16 @@
     display: inline-block;
     margin: 0;
     line-height: 1;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
 
-    @include bp(S) {
-      font-size: 30px;
-    }
-
     body.page--home & {
+      font-size: 20px;
+
+      @include bp(S) {
+        font-size: 30px;
+      }
+
       @include bp(XL) {
         font-size: 40px;
       }
@@ -156,7 +164,7 @@
       color: inherit;
       display: block;
       text-decoration: none;
-      font-family: var(--font-family-display);
+      font-family: var(--font-family-mono);
       padding: 0.5em 1em;
       &:hover {
         color: var(--accent-color);
