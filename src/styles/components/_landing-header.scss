@@ -1,7 +1,8 @@
 .LandingHeader {
   display: none;
   margin: 0 auto var(--module-y-spacing);
-  background: var(--background-color);
+  // background: var(--background-color);
+  background-color: #000;
   position: relative;
   padding: 0;
 
@@ -12,5 +13,6 @@
   &-bg {
     display: block;
     width: 100%;
+    height: auto;
   }
 }

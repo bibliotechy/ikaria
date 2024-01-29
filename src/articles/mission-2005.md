@@ -1,6 +1,6 @@
 ---
 title: 'The Icarus Project Mission, Vision & Principles (2005)'
-author: Sascha & Jacks
+author: Icarus Collective
 published: 2005
 ---
 
