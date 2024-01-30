@@ -12,7 +12,7 @@ tags: ['homepage']
 > gleaned from all the specters— fragmented memories, empty screens, broken
 > hearts, gravestones—that still linger?
 >
-> <footer>—Erica Hua Fletcher, <em>[Mad Together in Technogenic Times]('/articles/mad-together')</em></footer>
+> <footer>—Erica Hua Fletcher, <em><a href="/articles/mad-together">Mad Together in Technogenic Times</a></em></footer>
 
 </div>
 
