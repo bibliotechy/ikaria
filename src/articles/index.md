@@ -1,5 +1,5 @@
 ---
-layout: pages/articles-page.njk
+layout: layouts/articles-page.njk
 eleventyExcludeFromCollections: true
 title: Articles
 ---

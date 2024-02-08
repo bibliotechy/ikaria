@@ -53,40 +53,7 @@
   }
 
   &-tags {
-    list-style: none;
-    margin: 0.5em 0 0;
-    padding: 0;
-  }
-
-  &-tagItem {
-    margin: 0 0.1em !important;
-    padding: 0;
-    display: inline-block;
-  }
-
-  &-tag {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0.2em 1em;
-    font-family: var(--font-family-mono);
-    font-size: 0.7em;
-    font-weight: bold;
-    text-transform: lowercase;
-    background: var(--text-color);
-    color: #fff;
-    border-radius: 5px;
-    -webkit-font-smoothing: antialiased;
-
-    &:hover,
-    &:visited {
-      color: #fff;
-      background-color: #000;
-    }
-
-    svg {
-      fill: currentColor;
-      vertical-align: middle;
-    }
+    margin-top: 0.5em;
   }
 
   &-attachments {

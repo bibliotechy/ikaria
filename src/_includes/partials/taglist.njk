@@ -1,0 +1,5 @@
+<ul class="Taglist">
+  {%- for tag in taglist | filterTagList %}
+  <li class="Taglist-item">{% include 'partials/tag.njk' %}</li>
+  {%- endfor %}
+</ul>

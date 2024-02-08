@@ -1,4 +1,3 @@
 {
-  "layout": "gallery.njk",
-  "tags": "galleries"
+  "layout": "gallery.njk"
 }

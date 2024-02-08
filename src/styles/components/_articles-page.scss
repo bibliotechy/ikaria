@@ -3,8 +3,12 @@
   margin: 5rem auto;
   padding: 0 var(--outer-x-padding);
 
+  &-header {
+    margin: 0 0 3rem;
+  }
+
   &-title {
-    margin: 0 0 5rem;
+    margin: 0 0 2rem;
     border-bottom: solid 1px #aaa;
     padding-bottom: 1rem;
   }

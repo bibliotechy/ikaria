@@ -1,0 +1,15 @@
+.Taglist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &-item {
+    margin: 0 0.2em 0 0;
+    padding: 0;
+    display: inline-block;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
