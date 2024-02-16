@@ -144,34 +144,6 @@
     }
   }
 
-  &-menu {
-    width: var(--side-panel-width);
-    color: #fff;
-    background: #000;
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    z-index: -1;
-    list-style: none;
-    margin: 0;
-    padding: 2em 0 0;
-    line-height: 1.4;
-    background: #333;
-    top: 0;
-    right: 0;
-
-    a {
-      color: inherit;
-      display: block;
-      text-decoration: none;
-      font-family: var(--font-family-mono);
-      padding: 0.5em 1em;
-      &:hover {
-        color: var(--accent-color);
-      }
-    }
-  }
-
   &-navGraph {
     position: absolute;
     top: 0;
@@ -188,15 +160,5 @@
       left: 0;
       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
     }
-  }
-}
-
-body {
-  position: relative;
-  transition: right var(--side-panel-duration) ease-in-out;
-  right: 0;
-
-  &.is-menuOpen {
-    right: var(--side-panel-width);
   }
 }

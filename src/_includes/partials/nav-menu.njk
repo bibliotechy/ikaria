@@ -1,0 +1,13 @@
+<ul id="menu" class="NavMenu">
+  {% for item in nav %}
+  <li class="NavMenu-item">
+    <a
+      href="{{ item.url }}"
+      class="NavMenu-link"
+      data-links="{{ item.graphLinks }}"
+    >
+      {{ item.text }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
