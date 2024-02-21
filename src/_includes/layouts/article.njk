@@ -36,7 +36,7 @@ layout: layouts/base.njk
       <section class="Article-attachments">
         <h2 class="Article-attachmentsLabel">Files</h2>
         {% if (attachments | isArr) %}
-        <ul class="Article-attachmentList">
+        <ul class="Article-attachmentList" role="list">
           {% for file in attachments %}
           <li class="Article-attachment">
             {% include 'partials/attachment-link.njk' %}

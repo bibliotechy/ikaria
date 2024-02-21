@@ -1,4 +1,4 @@
-<ul class="ArticleGrid">
+<ul class="ArticleGrid" role="list">
   {% for article in articles | sort(false, false, 'data.order') %}
   <li class="ArticleGrid-item">{% include "partials/article-thumb.njk" %}</li>
   {% endfor %}

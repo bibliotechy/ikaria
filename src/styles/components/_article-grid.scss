@@ -1,6 +1,5 @@
 .ArticleGrid {
   display: grid;
-  list-style: none;
   margin: 0;
   padding: 0 var(--inner-x-padding);
   grid-template-columns: 1fr 1fr;
@@ -14,11 +13,6 @@
   @include bp(M) {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-  }
-
-  &-item {
-    margin: 0 !important;
-    padding: 0 !important;
   }
 
   > :nth-child(7n + 3) {
