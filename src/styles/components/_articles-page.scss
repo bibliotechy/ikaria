@@ -1,15 +1,21 @@
 .ArticlesPage {
   max-width: var(--outer-max-width);
   margin: 5rem auto;
-  padding: 0 var(--outer-x-padding);
+  padding: 0;
 
   &-header {
-    margin: 0 0 3rem;
+    margin: 0 var(--outer-x-padding) 3rem;
   }
 
   &-title {
     margin: 0 0 2rem;
     border-bottom: solid 1px #aaa;
     padding-bottom: 1rem;
+  }
+
+  @include bp(S) {
+    &-content {
+      padding: 0 var(--outer-x-padding);
+    }
   }
 }

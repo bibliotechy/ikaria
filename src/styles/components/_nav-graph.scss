@@ -4,6 +4,7 @@
   opacity: 0.9;
   color: #fff;
   visibility: hidden;
+  word-break: auto-phrase;
 
   @include bp(L) {
     visibility: visible;
