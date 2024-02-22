@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="BasicPage">
+  <header class="BasicPage-header">
+    <h1 class="BasicPage-title">{{ title }}</h1>
+
+    {% if taglist %} {% include 'partials/taglist.njk' %} {% endif %}
+  </header>
+
+  <div class="BasicPage-content">
+    {{ content | safe }}
+  </div>
+</section>
