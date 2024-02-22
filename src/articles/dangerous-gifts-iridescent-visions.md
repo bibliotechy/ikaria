@@ -4,6 +4,8 @@ author: Maryse Mitchell-Brody
 published: 2007
 thumb: /cloud-atlas.png
 thumb_alt: Some kind of Cloud-Atlas thing
+hero_img: /cloud-atlas.png
+hero_layout: split
 order: 5
 attachments: /docs/dangerous-gifts-iridescent-visions-and-mad-community-2007.pdf
 

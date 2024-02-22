@@ -2,16 +2,20 @@
 layout: layouts/base.njk
 ---
 
-<article class="Article">
-  {% if hero %}
-  <img src="{{ hero }}" alt="{{ title }}" class="Article-hero" />
-  {% else %}
+<article
+  class="Article{% if hero_img %} Article--hero{% if hero_layout %} Article--{{
+    hero_layout
+  }}{% endif %}{% endif %}"
+>
   <header class="Article-header">
+    {% if hero_img %}
+    <img src="{{ hero_img }}" alt="{{ title }}" class="Article-hero" />
+    {% endif %}
     <div class="Article-details">
       <h1 class="Article-title">{{ title }}</h1>
 
       {% if subhed %}
-      <h2 class="Article-subhed">{{ subhed }}</h2>
+      <p class="Article-subhed">{{ subhed }}</p>
       {% endif %}
       <hr class="Article-divider" />
 
@@ -31,34 +35,33 @@ layout: layouts/base.njk
       <div class="Article-tags">
         {% set taglist = tags %} {% include 'partials/taglist.njk' %}
       </div>
-
-      {% if attachments %}
-      <section class="Article-attachments">
-        <h2 class="Article-attachmentsLabel">Files</h2>
-        {% if (attachments | isArr) %}
-        <ul class="Article-attachmentList" role="list">
-          {% for file in attachments %}
-          <li class="Article-attachment">
-            {% include 'partials/attachment-link.njk' %}
-          </li>
-          {% endfor %}
-        </ul>
-        {% else %}
-
-        <div class="Article-attachmentList">
-          <div class="Article-attachment">
-            {% set file = attachments %} {% include
-            'partials/attachment-link.njk' %}
-          </div>
-        </div>
-        {% endif %}
-      </section>
-      {% endif %}
     </div>
   </header>
-  {% endif %}
 
   <div class="Article-content">
+    {% if attachments %}
+    <section class="Article-attachments">
+      <h2 class="Article-attachmentsLabel">Files</h2>
+      {% if (attachments | isArr) %}
+      <ul class="Article-attachmentList" role="list">
+        {% for file in attachments %}
+        <li class="Article-attachment">
+          {% include 'partials/attachment-link.njk' %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+
+      <div class="Article-attachmentList">
+        <div class="Article-attachment">
+          {% set file = attachments %} {% include 'partials/attachment-link.njk'
+          %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
     {{ content | safe }}
   </div>
 </article>

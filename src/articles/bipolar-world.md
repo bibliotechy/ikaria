@@ -5,6 +5,9 @@ author: Sascha Altman DuBrul
 published: September 2002
 thumb: /bipolar-world-i.jpg
 thumb_alt: The Forest and Subway
+
+hero_img: /bipolar-world-i.jpg
+
 order: 1
 
 attachments: /docs/bipolar-world.pdf
@@ -14,12 +17,6 @@ tags:
   - first-person accounts
   - navigating the space
 ---
-
-<div class="fullwidth">
-
-![The Forest and Subway](/bipolar-world-i.jpg)
-
-</div>
 
 ### I.
 
