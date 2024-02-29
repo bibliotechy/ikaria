@@ -4,4 +4,10 @@ eleventyExcludeFromCollections: true
 title: Publications
 ---
 
-<div class="PublicationsPage">TODO: put publications here</div>
+<div class="PublicationsPage">
+  <ul class="PublicationsPage-list" role="list">
+    {% for info in publications %}
+    <li class="PublicationsPage-item">{% include "partials/teaser.njk" %}</li>
+    {% endfor %}
+  </ul>
+</div>

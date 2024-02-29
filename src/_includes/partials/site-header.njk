@@ -1,7 +1,7 @@
 <header class="SiteHeader">
   <div class="SiteHeader-inner">
-    <a href="/" class="SiteHeader-title">
-      <span>The</span><span>Icarus</span><span>Project</span>
+    <a href="/" class="SiteHeader-title cutout">
+      {{ 'The Icarus Project' | spanify | safe }}
       <br />
       <span>Archive</span>
     </a>
@@ -13,10 +13,7 @@
       aria-label="Toggle Navigation Menu"
       aria-controls="menu"
     >
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+      {{ '   ' | spanify | safe }}
     </button>
   </div>
 

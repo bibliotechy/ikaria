@@ -135,6 +135,13 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter('isArr', (x) => Array.isArray(x))
 
+  eleventyConfig.addFilter('spanify', (x) =>
+    x
+      .split(' ')
+      .map((w) => `<span>${w}</span>`)
+      .join(''),
+  )
+
   // Copy contents of public into build
   eleventyConfig.addPassthroughCopy({ './public/': '/' })
   eleventyConfig.addPassthroughCopy('./src/scripts/**/*.js')

@@ -4,7 +4,7 @@
   padding: 0 var(--inner-x-padding);
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
-  grid-gap: var(--gap-size);
+  gap: var(--gap-size);
 
   @include bp(S) {
     padding: 0;

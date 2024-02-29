@@ -284,6 +284,21 @@ img.center {
   max-width: none;
 }
 
+.cutout {
+  span {
+    font-family: var(--font-family-mono);
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 0.1em 0.3em;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0 0.5em 0.5em 0;
+    text-transform: lowercase;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
 // https://www.a11yproject.com/posts/how-to-hide-content/
 .visually-hidden {
   clip: rect(0 0 0 0);

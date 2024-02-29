@@ -12,10 +12,10 @@ layout: layouts/base.njk
     <img src="{{ hero_img }}" alt="{{ title }}" class="Article-hero" />
     {% endif %}
     <div class="Article-details">
-      <h1 class="Article-title">{{ title }}</h1>
+      <h1 class="Article-title">{{ title | safe }}</h1>
 
       {% if subhed %}
-      <p class="Article-subhed">{{ subhed }}</p>
+      <p class="Article-subhed">{{ subhed | safe }}</p>
       {% endif %}
       <hr class="Article-divider" />
 

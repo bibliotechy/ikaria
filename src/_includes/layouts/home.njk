@@ -12,97 +12,18 @@ layout: layouts/base.njk
   />
 </div>
 
-{%- set aboutPage = collections.homepage | find('about') -%}
-<section class="Module">
-  <div class="Module-inner">
-    <h2 class="Module-title"><a href="/about">/about</a></h2>
-
-    <article class="Module-content">
-      <div class="InfoSection">
-        <img
-          src="/icarus-over-manhattan.jpg"
-          width="200"
-          alt="Painting of Icarus over Manhattan by Eric Drooker"
-          class="InfoSection-img"
-        />
-
-        <div class="InfoSection-cardContainer">
-          <div class="InfoSection-card">
-            <div class="InfoSection-copy">
-              <em>The Icarus Project</em> envisions a new culture and language
-              that resonates with our actual experiences of ’mental illness’
-              rather than trying to fit our lives into a conventional framework.
-              We are a network of people living with and/or affected by
-              experiences that are often diagnosed and labeled as psychiatric
-              conditions. We believe these experiences are dangerous gifts
-              needing cultivation and care, rather than diseases or disorders.
-              By joining together as individuals and as a community, the
-              intertwined threads of madness, creativity, and collaboration can
-              inspire hope and transformation in an oppressive and damaged
-              world. Participation in The Icarus Project helps us overcome
-              alienation and tap into the true potential that lies between
-              brilliance and madness. {#{ aboutPage.data.page.excerpt | toHTML |
-              safe }#}
-            </div>
-            <div class="InfoSection-moreLink">
-              <a href="/about">Read more »</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section class="Module Module--reverse">
+{% for module in modules %}
+<section class="{{ module.className }}">
   <div class="Module-inner">
     <h2 class="Module-title">
-      <a href="/publications">/publications</a>
+      <a href="{{ module.url }}">{{ module.title }}</a>
     </h2>
 
-    <article class="Module-content">
-      <div class="InfoSection InfoSection--reverse">
-        <img
-          src="/navigatingthespacecover.png"
-          width="200"
-          alt="Cover of Navigating the Space Between Brilliance and Madness"
-          class="InfoSection-img"
-        />
-
-        <div class="InfoSection-cardContainer">
-          <div class="InfoSection-card">
-            <div class="InfoSection-copy">
-              <p>
-                We assembled the beautiful and jagged pieces of our collective
-                experience, the lessons and the scars, to create an atlas of
-                alternative maps to the particular breed of madness that gets
-                called bipolar, and the ways people are making it through.
-                Traveling through subconscious and waking worlds, from hospital
-                waiting rooms to collective house kitchens, from the desert to
-                the supermarket, these pages chart some of the underground
-                tunnels beneath the mainstream medical model of treatment and
-                the pathologizing language that alienates so many of us.
-              </p>
-              <a href="#">Download PDF</a>
-            </div>
-            <div class="InfoSection-moreLink">
-              <a href="/publications"> See all publications » </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
+    <div class="Module-content">
+      {% set info = module.info %} {% include module.layout %}
+    </div>
   </div>
 </section>
-
-<section class="Module Module--invert">
-  <div class="Module-inner">
-    <h2 class="Module-title">
-      <a href="/articles">/articles</a>
-    </h2>
-
-    <div class="Module-content">{% include "partials/article-grid.njk" %}</div>
-  </div>
-</section>
+{% endfor %}
 
 <script src="/scripts/home.js"></script>

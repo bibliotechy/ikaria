@@ -1,0 +1,45 @@
+<article class="Teaser {{ info.modifierClasses }}">
+  {% if info.title %}
+  <header class="Teaser-header">
+    <a href="{{ info.url }}" class="Teaser-headerLink">
+      <h2 class="Teaser-title">
+        {{ info.title }}
+      </h2>
+      {% if info.subhed %}
+      <p class="Teaser-subhed">{{ info.subhed | safe }}</p>
+      {% endif %}
+    </a>
+  </header>
+  {% endif %}
+
+  <div class="Teaser-body">
+    <a href="{{ info.url }}" class="Teaser-imgLink">
+      <img
+        src="{{ info.img }}"
+        width="200"
+        alt="{{ info.img_alt }}"
+        class="Teaser-img"
+      />
+    </a>
+
+    <div class="Teaser-cardContainer">
+      <div class="Teaser-card">
+        <div class="Teaser-copy">
+          {{ info.copy | safe }}
+        </div>
+      </div>
+
+      <footer class="Teaser-footer">
+        <a href="{{ info.url }}" class="Teaser-button">Read more »</a>
+        {% if info.file %}
+        <a
+          href="{{ info.file }}"
+          class="Teaser-button Teaser-button--secondary"
+          download
+          >Download ⬇</a
+        >
+        {% endif %}
+      </footer>
+    </div>
+  </div>
+</article>
