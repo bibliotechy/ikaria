@@ -2,6 +2,7 @@
 title: Friends Make the Best Medicine
 subhed: A Guide to Creating Mental Health Support Networks (2<sup>nd</sup> Edition)
 author: The Icarus Project
+order: 2
 cover: /fmtbmcover.png
 attachments: /publications/fmtbm_2013.pdf
 

@@ -38,6 +38,14 @@
     font-size: 1.1rem;
     font-style: italic;
     color: var(--text-color-secondary);
+    margin: 0 0 0.25em;
+  }
+
+  &-byline {
+    margin: 0.5em 0 0;
+    text-transform: uppercase;
+    padding: 0 0.3em;
+    font-size: 0.7em;
   }
 
   &-body {
@@ -77,10 +85,6 @@
         text-align: right;
       }
     }
-
-    &--reverse {
-      padding-top: 3rem;
-    }
   }
 
   &-imgLink {
@@ -113,7 +117,7 @@
       .Teaser--reverse & {
         float: none;
         grid-column: 1 / 6;
-        margin: -8rem 0 0;
+        margin: 3rem 0 0;
       }
     }
 

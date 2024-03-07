@@ -1,5 +1,5 @@
 <ul class="ArticleGrid" role="list">
-  {% for article in articles | sort(false, false, 'data.order') %}
+  {% for article in articles | sortByOrder %}
   <li class="ArticleGrid-item">{% include "partials/article-thumb.njk" %}</li>
   {% endfor %}
 </ul>

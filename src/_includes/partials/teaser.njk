@@ -7,6 +7,8 @@
       </h2>
       {% if info.subhed %}
       <p class="Teaser-subhed">{{ info.subhed | safe }}</p>
+      {% endif %} {% if info.author %}
+      <div class="Teaser-byline">By {{ info.author }}</div>
       {% endif %}
     </a>
   </header>

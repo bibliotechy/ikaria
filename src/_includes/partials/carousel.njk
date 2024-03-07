@@ -1,1 +1,22 @@
-<article class="Carousel">TODO: carousel goes here</article>
+<article class="Carousel">
+  <swiper-container
+    class="Carousel-swiper"
+    slides-per-view="auto"
+    space-between="40"
+    speed="500"
+    threshold="2"
+  >
+    {% for slide in info.slides | sortByOrder %}
+    <swiper-slide class="Carousel-slide">
+      <a href="{{ slide.url }}" class="Carousel-slideLink">
+        <img
+          src="{{ slide.img }}"
+          alt="{{ slide.img_alt }}"
+          class="Carousel-img"
+        />
+        <h3 class="Carousel-slideTitle">{{ slide.title | safe }}</h3>
+      </a>
+    </swiper-slide>
+    {% endfor %}
+  </swiper-container>
+</article>

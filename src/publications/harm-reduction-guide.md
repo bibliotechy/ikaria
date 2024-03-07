@@ -2,6 +2,7 @@
 title: Harm Reduction Guide to Coming Off Psychiatric Drugs
 subhed: Expanded 2<sup>nd</sup> Edition
 author: Will Hall
+order: 3
 cover: /harmreductionguidecover.png
 attachments: /publications/harm_reduction_guide_2nd_edition.pdf
 

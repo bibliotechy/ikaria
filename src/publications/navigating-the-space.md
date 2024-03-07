@@ -2,6 +2,7 @@
 title: Navigating the Space Between Brilliance and Madness
 subhed: A Reader & Roadmap of Bipolar Worlds (10<sup>th</sup> Anniversary Edition)
 author: The Icarus Project
+order: 1
 cover: /navigatingthespacecover.png
 attachments: /publications/navigating_the_space_10.pdf
 

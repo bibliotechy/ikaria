@@ -142,6 +142,15 @@ module.exports = (eleventyConfig) => {
       .join(''),
   )
 
+  // Add the filter.
+  eleventyConfig.addFilter('sortByOrder', (values) =>
+    [...values].sort((a, b) =>
+      Math.sign(
+        (a.order || a.data?.order || 0) - (b.order || b.data?.order || 0),
+      ),
+    ),
+  )
+
   // Copy contents of public into build
   eleventyConfig.addPassthroughCopy({ './public/': '/' })
   eleventyConfig.addPassthroughCopy('./src/scripts/**/*.js')
