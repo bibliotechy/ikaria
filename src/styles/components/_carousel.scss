@@ -1,4 +1,33 @@
 .Carousel {
+  &-nav {
+    text-align: right;
+    margin: 0 0 1rem;
+    user-select: none;
+
+    button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+
+      &:disabled {
+        opacity: 0.2;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &-prev:not(:disabled):hover {
+    transform: translateX(-6px);
+  }
+
+  &-next:not(:disabled):hover {
+    transform: translateX(6px);
+  }
+
   &-swiper {
     width: 100%;
     height: 100%;
@@ -7,7 +36,7 @@
   &-slide {
     display: flex;
     justify-content: center;
-    max-width: 200px;
+    max-width: 230px;
   }
 
   &-slideLink {
@@ -31,6 +60,11 @@
   &-img {
     display: block;
     width: 100%;
+    transition: all 0.3s ease;
     // object-fit: cover;
+
+    .Carousel-slideLink:hover & {
+      filter: brightness(70%);
+    }
   }
 }
