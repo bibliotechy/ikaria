@@ -6,13 +6,14 @@
   }
 
   &--invert {
+    padding: 3rem 0;
     background-color: #343230;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    padding: 3rem 0;
   }
 
-  &-inner {
+  &-header,
+  &-content {
     position: relative;
     margin: 0 auto;
     max-width: var(--outer-max-width);
@@ -20,6 +21,11 @@
     @include bp(S) {
       padding: 0 var(--outer-x-padding);
     }
+  }
+
+  .Module--full &-content {
+    max-width: none;
+    padding: 0;
   }
 
   &-title {

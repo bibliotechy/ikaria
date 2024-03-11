@@ -14,17 +14,18 @@ layout: layouts/base.njk
 
 {% for module in modules %}
 <section class="{{ module.className }}">
-  <div class="Module-inner">
+  <header class="Module-header">
     <h2 class="Module-title">
       <a href="{{ module.url }}">{{ module.title }}</a>
     </h2>
+  </header>
 
-    <div class="Module-content">
-      {% set info = module.info %} {% include module.layout %}
-    </div>
+  <div class="Module-content">
+    {% set info = module.info %} {% include module.layout %}
   </div>
 </section>
 {% endfor %}
 
 <script src="/scripts/home.js"></script>
 <script src="/scripts/vendor/swiper-element-bundle.min.js"></script>
+<script src="/scripts/carousel.js"></script>

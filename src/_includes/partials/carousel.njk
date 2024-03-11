@@ -1,7 +1,7 @@
 <article class="Carousel">
   <div class="Carousel-nav">
-    <button id="swiper-prev" class="Carousel-prev">←</button>
-    <button id="swiper-next" class="Carousel-next">→</button>
+    <button class="Carousel-prev">←</button>
+    <button class="Carousel-next">→</button>
   </div>
 
   <swiper-container
@@ -10,8 +10,7 @@
     space-between="40"
     speed="300"
     threshold="2"
-    navigation-prev-el="#swiper-prev"
-    navigation-next-el="#swiper-next"
+    init="false"
   >
     {% for slide in info.slides | sortByOrder %}
     <swiper-slide class="Carousel-slide">

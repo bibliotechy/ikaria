@@ -31,7 +31,7 @@ module.exports = {
           title: '/publications',
           url: '/publications',
           layout: 'partials/carousel.njk',
-          modifiers: ['reverse', 'invert', 'carousel'],
+          modifiers: ['reverse', 'invert', 'carousel', 'full'],
           info: {
             slides: data.collections.publication.map((pub) => ({
               title: pub.data.title,

@@ -1,7 +1,9 @@
 .Carousel {
   &-nav {
+    max-width: var(--outer-max-width);
+    margin: 0 auto 1rem;
+    padding: 0 var(--outer-x-padding);
     text-align: right;
-    margin: 0 0 1rem;
     user-select: none;
 
     button {
