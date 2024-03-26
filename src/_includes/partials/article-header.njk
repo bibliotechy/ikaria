@@ -1,0 +1,38 @@
+<header
+  class="ArticleHeader{% if hero_img %} ArticleHeader--hero{% if hero_layout %} ArticleHeader--{{
+    hero_layout
+  }}{% endif %}{% endif %}"
+>
+  {% if hero_img %}
+  <img src="{{ hero_img }}" alt="{{ title }}" class="ArticleHeader-hero" />
+  {% endif %}
+  <div class="ArticleHeader-details">
+    <h1 class="ArticleHeader-title">{{ title | safe }}</h1>
+
+    {% if subhed %}
+    <p class="ArticleHeader-subhed">{{ subhed | safe }}</p>
+    {% endif %}
+    <hr class="ArticleHeader-divider" />
+
+    <div class="ArticleHeader-byline">
+      {% if author %}
+      <span
+        class="ArticleHeader-metadataItem ArticleHeader-metadataItem--author"
+      >
+        By {{ author }}
+      </span>
+      {% endif %} {% if author and published %}&middot;{% endif %} {% if
+      published %}
+      <span
+        class="ArticleHeader-metadataItem ArticleHeader-metadataItem--published"
+      >
+        {{ published }}
+      </span>
+      {% endif %}
+    </div>
+
+    <div class="ArticleHeader-tags">
+      {% set taglist = tags %} {% include 'partials/taglist.njk' %}
+    </div>
+  </div>
+</header>

@@ -7,36 +7,7 @@ layout: layouts/base.njk
     hero_layout
   }}{% endif %}{% endif %}"
 >
-  <header class="Article-header">
-    {% if hero_img %}
-    <img src="{{ hero_img }}" alt="{{ title }}" class="Article-hero" />
-    {% endif %}
-    <div class="Article-details">
-      <h1 class="Article-title">{{ title | safe }}</h1>
-
-      {% if subhed %}
-      <p class="Article-subhed">{{ subhed | safe }}</p>
-      {% endif %}
-      <hr class="Article-divider" />
-
-      <div class="Article-byline">
-        {% if author %}
-        <span class="Article-metadataItem Article-metadataItem--author">
-          By {{ author }}
-        </span>
-        {% endif %} {% if author and published %}&middot;{% endif %} {% if
-        published %}
-        <span class="Article-metadataItem Article-metadataItem--published">
-          {{ published }}
-        </span>
-        {% endif %}
-      </div>
-
-      <div class="Article-tags">
-        {% set taglist = tags %} {% include 'partials/taglist.njk' %}
-      </div>
-    </div>
-  </header>
+  {% include 'partials/article-header.njk' %}
 
   <div class="Article-content">
     {% if attachments %}
