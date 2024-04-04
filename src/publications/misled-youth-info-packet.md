@@ -4,8 +4,7 @@ author: The Misled Youth Network
 order: 7
 cover: /mynzinecover.png
 
-tags:
-  - misled youth zine
+publication_tag: misled youth zine
 ---
 
 The role of The Misled Youth Network is to disseminate art and information that

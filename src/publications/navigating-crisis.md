@@ -5,8 +5,7 @@ order: 8
 cover: /navigatingcrisiscover.png
 attachments: /publications/navigating-crisis-05-09.pdf
 
-tags:
-  - navigating crisis handout
+publication_tag: navigating crisis handout
 ---
 
 This four-page handout was edited by Clarextina and Will and Icarus member

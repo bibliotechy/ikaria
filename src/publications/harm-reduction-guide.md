@@ -6,8 +6,9 @@ order: 3
 cover: /harmreductionguidecover.png
 attachments: /publications/harm_reduction_guide_2nd_edition.pdf
 
-tags:
-  - harm reduction guide
+hero_position: bottom
+
+publication_tag: harm reduction guide
 ---
 
 This 52-page guide gathers the best information we've come across and the most

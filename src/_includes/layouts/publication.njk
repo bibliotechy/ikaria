@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+---
+
+<article
+  class="Publication{% if hero_img %} Publication--hero{% if hero_layout %} Publication--{{
+    hero_layout
+  }}{% endif %}{% endif %}"
+>
+  {% include "partials/article-header.njk" %}
+
+  <div class="Publication-content">
+    {% if attachments %}
+    <section class="Publication-attachments">
+      <h2 class="Publication-attachmentsLabel">Files</h2>
+      {% if (attachments | isArr) %}
+      <ul class="Publication-attachmentList" role="list">
+        {% for file in attachments %}
+        <li class="Publication-attachment">
+          {% include 'partials/attachment-link.njk' %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+
+      <div class="Publication-attachmentList">
+        <div class="Publication-attachment">
+          {% set file = attachments %} {% include 'partials/attachment-link.njk'
+          %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {{ content | safe }}
+  </div>
+</article>

@@ -6,8 +6,7 @@ order: 4
 cover: /mindful-occupation-cover.png
 attachments: /publications/mindful_occupation.pdf
 
-tags:
-  - mindful occupation
+publication_tag: mindful occupation
 ---
 
 What you hold in your hands is a rough toolkit of ideas and visions. It is meant

@@ -5,8 +5,7 @@ order: 6
 cover: /wax-and-feathers-cover.png
 attachments: /publications/waxandfeathers.pdf
 
-tags:
-  - wax & feathers
+publication_tag: wax & feathers
 ---
 
 This Zine is a collaborative work by Icarus Project members. In expressing our

@@ -5,8 +5,7 @@ author: Sascha Altman DuBrul
 order: 5
 cover: /mutant-superpowers-cover.png
 
-tags:
-  - mutant superpowers
+publication_tag: mutant superpowers
 ---
 
 These are tales of escapism into TV and the X-Men as a metaphor for people with

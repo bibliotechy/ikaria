@@ -1,4 +1,7 @@
 {
   "layout": "layouts/article.njk",
-  "tags": "publication"
+  "tags": "publication",
+  "hero_position": "top",
+  "hero_layout": "split",
+  "invert": true
 }

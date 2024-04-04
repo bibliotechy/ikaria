@@ -6,8 +6,7 @@ order: 1
 cover: /navigatingthespacecover.png
 attachments: /publications/navigating_the_space_10.pdf
 
-tags:
-  - navigating the space
+publication_tag: navigating the space
 ---
 
 We assembled the beautiful and jagged pieces of our collective experience, the

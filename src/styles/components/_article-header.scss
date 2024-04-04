@@ -46,6 +46,14 @@
         opacity: 1;
       }
     }
+
+    .ArticleHeader--postop & {
+      object-position: top;
+    }
+
+    .ArticleHeader--posbottom & {
+      object-position: bottom;
+    }
   }
 
   &-details {
@@ -90,15 +98,17 @@
         padding: 0 var(--inner-x-padding);
       }
     }
+
+    .ArticleHeader--invert & {
+      background: #000;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
   }
 
   &-title {
     .ArticleHeader--split & {
       font-size: 2rem;
-
-      @include bp(XL) {
-        font-size: 3rem;
-      }
     }
   }
 
@@ -139,4 +149,10 @@
   &-tags {
     margin-top: 0.5em;
   }
+}
+
+body:has(.ArticleHeader--invert) .SiteHeader-title span:not(:last-child) {
+  color: #000;
+  background-color: #fff;
+  -webkit-font-smoothing: auto;
 }

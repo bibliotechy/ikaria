@@ -6,8 +6,8 @@ order: 2
 cover: /fmtbmcover.png
 attachments: /publications/fmtbm_2013.pdf
 
-tags:
-  - friends make the best medicine
+invert: false
+publication_tag: friends make the best medicine
 ---
 
 We’ve outlined a bunch of ideas to help you gather people together to start

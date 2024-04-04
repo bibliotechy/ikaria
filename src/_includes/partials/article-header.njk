@@ -1,7 +1,9 @@
 <header
   class="ArticleHeader{% if hero_img %} ArticleHeader--hero{% if hero_layout %} ArticleHeader--{{
     hero_layout
-  }}{% endif %}{% endif %}"
+  }}{% endif %}{% if hero_position %} ArticleHeader--pos{{
+    hero_position
+  }}{% endif %}{% endif %}{% if invert %} ArticleHeader--invert{% endif %}"
 >
   {% if hero_img %}
   <img src="{{ hero_img }}" alt="{{ title }}" class="ArticleHeader-hero" />
@@ -31,8 +33,12 @@
       {% endif %}
     </div>
 
+    {% if tags | isArr and tags.includes('publication') %}
+    <div></div>
+    {% else %}
     <div class="ArticleHeader-tags">
       {% set taglist = tags %} {% include 'partials/taglist.njk' %}
     </div>
+    {% endif %}
   </div>
 </header>
