@@ -18,7 +18,7 @@ tags: ['homepage']
 > oppressive and damaged world. Participation in The Icarus Project helps us
 > overcome alienation and tap into the true potential that lies between
 > brilliance and madness.
-
+>
 > <footer>from the <em><a href="/articles/mission-2005">Icarus Project Mission Statement 2005</a></em></footer>
 
 </div>
@@ -63,9 +63,9 @@ majority: Black, indigenous and people of color were being ignored because of
 privilege. The original founders, Jacks and Sascha, both envisioned Icarus
 growing to have a leadership that could outgrow their leadership. The idea that
 Icarus should recenter the most economically and socially marginalized led to
-what was called a “Decolonization” process of Icarus.The history of the
+what was called a “Decolonization” process of Icarus. The history of the
 organization is well documented in Erica Fletcher’s dissertation
-[Mad Together in Techogenic Times](/articles/mad-together).
+[Mad Together in Technogenic Times](/articles/mad-together).
 
 The new group of Icaristas prioritized content for the QTBIPOC community and
 embraced the vision of [Healing Justice](https://healingjusticeproject.org/).
