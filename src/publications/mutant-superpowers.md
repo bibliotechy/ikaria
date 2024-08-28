@@ -6,6 +6,7 @@ order: 5
 cover: /mutant-superpowers-cover.png
 
 publication_tag: mutant superpowers
+attachments: /publications/Mutant-SuperPowers-Zine.pdf
 ---
 
 These are tales of escapism into TV and the X-Men as a metaphor for people with
