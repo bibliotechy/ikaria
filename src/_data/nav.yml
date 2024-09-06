@@ -11,13 +11,13 @@
   url: /about
   graphLinks: [1, 5]
 - text: Galleries
-  url: /galleries
+  url: /related
   graphLinks: [1, 6, 7]
 - text: Old Website
   url: https://site.icarusprojectarchive.org/
   graphLinks: [0, 1]
 - text: Dangerous Gift Shop
-  url: \#merch
+  url: https://theicarusproject.bigcartel.com/
   graphLinks: [1, 3]
 - text: Articles & Papers
   url: /articles
